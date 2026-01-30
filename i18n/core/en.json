@@ -275,6 +275,68 @@
         "chargingBehavior": "Charging Behavior",
         "connectivity": "Connectivity"
     },
+    "translated_filters": {
+        "alertType": {
+            "BATTERYCHARGE": "CHARGER ERROR",
+            "IMPACTDETECTED": "IMPACT DETECTED",
+            "DIAGNOSTICTROUBLECODE": "DIAGNOSTIC TROUBLE CODE",
+            "OPERATORLOG": "OPERATOR LOG",
+            "UNEXPECTEDPOWERLOSS": "UNEXPECTED POWER LOSS",
+            "LOWUSAGE": "LOW USAGE",
+            "OPPORTUNITYCHARGE": "OPPORTUNITY CHARGE",
+            "NOCHARGE": "NO CHARGE",
+            "RELOCATION": "RELOCATION",
+            "NOCOMMUNICATION": "NO COMMUNICATION",
+            "NOSERVICEPERFORMED": "NO SERVICE PERFORMED",
+            "SERVICEREQUEST": "SERVICE REQUEST",
+            "AUTOMATICBATTERYWATERING": "ABW TANK EMPTY",
+            "MAINTENANCEREMINDER": "MAINTENANCE REMINDER",
+            "NOTREACHINGCLEANTIMEGOALS": "NOT REACHING CLEAN TIME GOALS"
+        },
+        "features": {
+            "logging": "LOGGING",
+            "abw": "ABW",
+            "scrubbing": "SCRUBBING",
+            "sweeping": "SWEEPING",
+            "burnishing": "BURNISHING"
+        },
+        "deviceGroupType": {
+            "MODIFIED": "MODIFIED",
+            "DEFAULT": "DEFAULT",
+            "CUSTOMER_ADMIN": "CUSTOMER ADMIN"
+        },
+        "userGroupType": {
+            "MODIFIED": "MODIFIED",
+            "DEFAULT": "DEFAULT",
+            "CUSTOMER_ADMIN": "CUSTOMER ADMIN"
+        },
+        "classification": {
+            "WARNING": "Warning",
+            "CRITICAL": "Critical",
+            "MAINTENANCE": "Maintenance"
+        },
+        "incidentStatus": {
+            "CANCELED": "Canceled",
+            "FIXED": "Fixed",
+            "NOT_VIEWED": "Not viewed",
+            "RECEIVED": "Received",
+            "NO_ISSUE": "No Issue"
+        },
+        "machineTechnology": {
+            "LITE": "LITE",
+            "GEN_1": "GEN 1",
+            "GEN_2": "GEN 2",
+            "UNKNOWN": "UNKNOWN"
+        },
+        "chargingBehavior": {
+            "COMPLETE": "Complete",
+            "INCOMPLETE": "Incomplete"
+        },
+        "connectivity": {
+            "NON_REPORTING": "Non Reporting",
+            "REPORTING": "Reporting"
+        }
+    },
     "timeOptions": {
         "day": "Day",
         "week": "Week",
@@ -459,3 +521,4 @@
         }
     }
 }
+
