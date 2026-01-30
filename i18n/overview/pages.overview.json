@@ -1,0 +1,81 @@
+{
+    "pages": {
+        "overview": {
+            "title": "Overview",
+            "location": "Location",
+            "view_more": "View more",
+            "site": "Site",
+            "region": "Region",
+            "last_data_upload": "Last Data Upload",
+            "last_reported_location": "Last Reported Location",
+            "pending_alerts": "Pending Alerts",
+            "alerts": "Alerts",
+            "avgRunTime": "Avg. Daily Run Time",
+            "avgCleanTime": "Avg. Daily Clean Time",
+            "machinesLowUsage": "Machines With Low Usage",
+            "lowUsageAlerts": "Low Usage Alerts",
+            "machinesHighUsage": "Machines With High Usage",
+            "machinesReporting": "Machines Reporting/Total",
+            "impacts": "Impacts",
+            "batteryHealth": "Battery Health"
+        },
+        "overview_metrics": {
+            "welcome_back": "WELCOME BACK",
+            "logged_in_as": "Logged in as",
+            "avg_clean_time": "Avg. Daily Clean Time",
+            "time_frame_not_support_trends": "Time frame doesn't support trends",
+            "change_from_previous": "Change from previous",
+            "no_change_from_previous": "No change from previous",
+            "from_previous": "from previous",
+            "limited_access": "LIMITED ACCESS",
+            "not_available_for_customers": "Not available for customers at this time.",
+            "only_available_for_certain_customers": "Only available for certain customers. Please contact your sales rep for more information.",
+            "alerts_disabled": "ALERTS DISABLED",
+            "alerts_must_be_enabled": "Alerts must be enabled from the Setup tab to view this metric.",
+            "only_available_on_desktop": "Only available on desktop.",
+            "clean_time": "Clean Time",
+            "not_reaching_clean_time_goals": "Not Reaching Clean Time Goals",
+            "total_clean_time": "Total Clean Time",
+            "battery": "Battery",
+            "replacement_needed": "Replacement Needed",
+            "location": "Location",
+            "relocation_alerts": "Relocation Alerts",
+            "fleet_technology": "Fleet Technology",
+            "fleet_technology_type": {
+                "LITE": "Lite",
+                "GEN_1": "Gen 1",
+                "GEN_2": "Gen 2",
+                "UNKNOWN": "Unknown"
+            },
+            "unit": {
+                "hours": "Hours",
+                "machines": "Machines"
+            },
+            "charging_behavior": "Charging Behavior",
+            "charging_behavior_type": {
+                "complete": "Complete",
+                "incomplete": "Incomplete",
+                "no_charge": "No Charge"
+            },
+            "charging_behavior_no_data": "No Available Data",
+            "incomplete_charge": "Incomplete Charge",
+            "open_requests": "Open Requests",
+            "total_open_requests": "Total Open Requests",
+            "total": "Total",
+            "created": "Created",
+            "completed": "Completed",
+            "trend_value:": "Trend value",
+            "role": {
+                "Super_Admin": "Super Admin",
+                "Internal_Admin": "Internal Admin",
+                "Internal_Support": "Internal Support",
+                "Internal_Dev": "Internal Dev",
+                "Customer_Admin": "Customer Admin",
+                "Customer": "Customer"
+            },
+            "low_usage_reported": "Low Usage Reported",
+            "impact_activity": "Impact Activity",
+            "non_reporting_fleet": "Non Reporting/Fleet"
+        }
+    }
+}
