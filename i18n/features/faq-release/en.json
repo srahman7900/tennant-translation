@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "faq": {
+      "questions_not_found": "NO RELEVANT QUESTIONS FOUND",
+      "search_for_topic": "Search for topic"
+    },
+    "release_note": {
+      "questions_not_found": "NO MATCHES FOR YOUR SEARCH",
+      "search_for_topic": "Search for topic",
+      "whats_new": "What's New"
+    },
+    "notification": {
+      "tabs": {
+        "faq": "FAQ",
+        "whats_new": "What's New"
+      }
+    }
+  }
+}

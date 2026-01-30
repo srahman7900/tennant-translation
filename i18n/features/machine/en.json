@@ -1,0 +1,104 @@
+{
+  "pages": {
+    "machine": {
+      "feature": "Machine Features",
+      "updates": "Machine Updates",
+      "scrubbing-feature": "Scrubbing Feature",
+      "sweeping-feature": "Sweeping Feature",
+      "burnish-feature": "Burnishing",
+      "auto-battery-watering": "Auto Battery Watering",
+      "logging": "Machine Logging",
+      "avg_hours_per_day": "Avg. hours per day",
+      "avg_clean_hours_per_day": "Avg. Clean Hours Per Day",
+      "total_run_time": "Total Run Time",
+      "total_clean_time": "Total Clean Time",
+      "runtime_graph_title": "Hours",
+      "runtime_graph_machines_title": "Machines",
+      "runtime_graph_reporting_title": "Reporting",
+      "runtime_graph_hrs_title": "Hrs",
+      "runtime_graph_avg_hours": "Average Hours",
+      "software_version": "Software Version",
+      "production_date": "Production Date",
+      "last_service_performed": "Last Service Performed",
+      "view_less": "View Less",
+      "view_more": "View More",
+      "logs": {
+        "logs_title_singular": "Log",
+        "logs_title_plural": "Logs",
+        "log_suffix": "Machine log",
+        "refresh_title": "Please wait while the Log is being generated. The system will automatically check if the Logs are ready in",
+        "error": "<strong>Error occurred.</strong> Please try again later.",
+        "view_logs": "View Logs",
+        "previously_machine_log": "Machine logs for the selected date were previously viewed.",
+        "new_machine_log": "Force new machine log",
+        "previous_download": "View previous download"
+      },
+      "manual_sync": {
+        "left_uploads": "{{value}} {{uploadString}} left for this month",
+        "zero_uploads": "0 requests left. You can do another upload next month",
+        "wait_while_hours_sync": "The system will automatically check if the upload is ready in ",
+        "last_synced": "Last synced",
+        "successfully_synced": "Hours synced successfully",
+        "manual_sync": "Manual Sync",
+        "upload": "upload",
+        "uploads": "uploads",
+        "device_not_connected": "Device is not connected",
+        "sync_command_running": "Sync hours command is running"
+      },
+      "battery_level": "Tracker Battery Level",
+      "hour_meter": {
+        "label": "Hour Meter",
+        "current_hour_meter": "Current Hour Meter: {{value}} Hrs",
+        "manage": "Manage"
+      },
+      "invalid_machineId": "You do not have access to {{machineId}}"
+    },
+    "audit_hour_meter": {
+      "title": "Audit Hour Meter",
+      "current_hour_meter": "Current Hour Meter:",
+      "type_in_hour_meter": "Type in Hour Meter",
+      "hour_meter_required": "Hour Meter cannot be empty.",
+      "hour_meter_min": "Only positive numbers are allowed.",
+      "hour_meter_max": "Hour Meter Value must not exceed 8 digits.",
+      "hour_meter_decimal_places": "Only up to two decimal places are allowed.",
+      "notes": "Notes",
+      "notes_required": "Notes cannot be empty.",
+      "notes_limit": "Character Limit Exceeded. Maximum allowed: 250 characters.",
+      "notes_leading_space": "No leading spaces allowed."
+    },
+    "machine-usage": {
+      "title": "Machine Usage",
+      "totals": "Totals",
+      "scrub": "Scrub",
+      "propel": "Propel",
+      "charge_complete_incomplete": "Charge Incomplete/Complete",
+      "charge_error": "Charge Error",
+      "ec-h2o": "ec-H2O",
+      "incomplete_charge": "Incomplete Charge",
+      "complete_charge": "Complete Charge",
+      "no_data": "No Data",
+      "days": "days",
+      "day": "day",
+      "have_to_select_time_period": "You have to select time period for the machine usage.",
+      "filter_up_to": "You can only filter up to 31 days at a time",
+      "no_results": "There are no results for selected time period.",
+      "supports_total_only": "Supports Total Only",
+      "supports_clean_time_only": "Supports Clean Time Only",
+      "clean": "Clean",
+      "impact": "Impact",
+      "site": "Site",
+      "region": "Region",
+      "result": "Result",
+      "results": "Results"
+    },
+    "usage": {
+      "machine_usage": "Machine usage",
+      "hours": "Hours",
+      "run": "Run",
+      "charge": "Charge"
+    },
+    "runtime": {
+      "title": "RUN TIME"
+    }
+  }
+}

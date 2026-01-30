@@ -1,0 +1,48 @@
+{
+    "pages": {
+        "alerts": {
+            "title": "ALERTS",
+            "disclaimer": "Alerts must be enabled from the Setup tab to be viewed here.",
+            "summaries": {
+                "impacts": "Impacts",
+                "no_usage": "No Usage",
+                "no_connectivity": "No Connectivity",
+                "incomplete_charges": "Incomplete Charges",
+                "relocation": "Relocation"
+            },
+            "status": {
+                "title": "Status",
+                "active": "Active",
+                "inactive": "Cleared"
+            },
+            "operator_id": "Operator ID",
+            "technician_id": "Technician ID",
+            "date": "Date",
+            "time": "Time",
+            "site": "Site",
+            "region": "Region",
+            "machineTechnology": "Technology",
+            "current_location": "Current Location",
+            "home_location": "Home Location",
+            "possible_fixes": "Possible Fixes",
+            "possible_reasons": "Possible Reasons",
+            "prioritized_fixes": "Prioritized Fixes",
+            "prioritized_reasons": "Prioritized Reasons",
+            "miles": "miles",
+            "km": "km",
+            "months": "months",
+            "minutes": "Minutes",
+            "created": "CREATED",
+            "critical": "CRITICAL",
+            "warning": "WARNING",
+            "completed": "COMPLETED",
+            "cleared": "CLEARED",
+            "date_reported": "Date Reported",
+            "date_completed": "Date Completed",
+            "tabs": {
+                "details": "Alert Details",
+                "manual": "Manual"
+            }
+        }
+    }
+}

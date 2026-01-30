@@ -1,0 +1,144 @@
+{
+    "pages": {
+        "admin": {
+            "tabs": {
+                "machine_groups": "Machine Groups",
+                "machine_attributes": "Machine Attributes",
+                "user_groups": "User Groups",
+                "user_attributes": "User Attributes",
+                "firmware": "Firmware",
+                "features": "Features"
+            },
+            "select_machines": "Select Machines",
+            "select_users": "Select Users",
+            "selected_users": "Selected Users",
+            "selected_machines": "Selected Machines",
+            "no_selected_machine": "No Machines Selected",
+            "no_selected_users": "No Selected Users",
+            "no_selected_group": "No Group Selected",
+            "groups": "Groups",
+            "select_group": "Select a Group",
+            "unsaved_changes": "Unsaved Changes",
+            "comments_section": "Comments section",
+            "multiple_values": "Multiple Values",
+            "group_was": "Group was",
+            "groups_were": "Groups were",
+            "user_was": "User was",
+            "users_were": "Users were",
+            "machine_was": "Machine was",
+            "machines_were": "Machines were",
+            "state_was": "State was",
+            "created": "created.",
+            "edited": "edited.",
+            "deleted": "deleted.",
+            "assigned": "assigned.",
+            "removed": "removed.",
+            "changed": "changed.",
+            "canceled": "canceled.",
+            "successfully": "{{attribute}} successfully {{action}}",
+            "invalid_count": "The request couldn't be processed. Increase the max device count of {{email}}, so the user can be assigned.",
+            "machine_groups": {
+                "machine_group_modal": {
+                    "title": "Machine Group Name"
+                },
+                "delete_machine_group_modal": {
+                    "title": "delete forever"
+                }
+            },
+            "user_groups": {
+                "assign_machine_group": "Assign Machine Group",
+                "assigned_machines_groups": "Assigned Machine Groups",
+                "user_group_modal": {
+                    "title": "User Group Name"
+                },
+                "tabs": {
+                    "add": "Add",
+                    "remove": "Remove"
+                }
+            },
+            "machine_attributes": {
+                "region": "Region",
+                "site": "Site",
+                "clientAssetId": "Client Asset ID",
+                "floorType": "Floor Type",
+                "sizeOfCleaningArea": "Size Of Cleaning Area",
+                "division": "Division",
+                "scrubType": "Scrub Type",
+                "vendor": "Vendor",
+                "tier": "Tier",
+                "customerRegion": "Customer Region",
+                "dailyCleanTimeGoalMins": "Daily Clean Time Goal Mins",
+                "pilot": "Pilot",
+                "district": "District",
+                "serviceCode": "Service Code",
+                "budgetScrubHours": "Budget Scrub Hours",
+                "assigned_machine_groups": "Assigned Machine Groups",
+                "assign_machine_groups": "Machine Groups To Be Assigned",
+                "remove_machine_groups": "Machine Groups To Be Removed",
+                "no_assign_groups": "No Assigned Groups",
+                "no_common_groups": "No Common Groups Are Assigned To The Selected Machines",
+                "add_machine_group": "Add Machine Group",
+                "machine_id_copied": "Machine ID copied",
+                "tabs": {
+                    "add": "Add",
+                    "remove": "Remove",
+                    "edit_attributes": "Edit Attributes"
+                }
+            },
+            "user_attributes": {
+                "add_user_group": "Add to User Group",
+                "assigned_user_groups": "Assigned User Groups",
+                "assigned_customer_admin_groups": "Assigned Customer Admin Groups",
+                "assign_user_groups": "User Groups To Be Assigned",
+                "assign_customer_admin_groups": "Customer Admin Groups To Be Assigned",
+                "remove_user_groups": "User Groups To Be Removed",
+                "remove_customer_admin_groups": "Customer Admin Groups To Be Removed",
+                "no_assign_groups": "No Assigned Groups",
+                "no_common_groups": "No Common Groups Are Assigned To The Selected Users",
+                "max_device_count": "Max Device Count",
+                "selected_customers_message": "If you want to edit max device count please remove from the selection users with the same user role as yours and users with customer role.",
+                "change_role": "Change Role",
+                "tabs": {
+                    "add": "Add",
+                    "remove": "Remove",
+                    "edit": "Edit"
+                }
+            },
+            "resolve_issue": {
+                "user_is_over_the_limit_message": "<strong>{{user}}</strong> has reached the limit of {{maxDeviceCount}} machines. There are <span>{{overTheLimitCount}} machines</span> over the limit. Choose one of the following options:",
+                "users_are_over_the_limit": "{{unresolvedUsersCount}} {{userString}} over the machine limit.",
+                "been_resolved": "{{unresolvedUsersCount}} {{userString}} been resolved.",
+                "remove_user_from_user_group": "Remove User from User Group",
+                "remove_user_from_the_user_group": "Remove User from The User Group",
+                "remove_machine_group_from_user_group": "Remove Machine Group from User Group",
+                "contanct_superior_admin": "Contact your Superior Admin to change the device count",
+                "contact": "Contact",
+                "user_has_machine_over_the_limit_message": "<strong>{{user}}</strong> has <span>{{overTheLimitCount}} machines</span> over the limit.",
+                "remove_machines_from_device_group": "Remove Machines From Machine Group",
+                "changes_to_the_whole_group_message": "Warning: By clicking save you will make changes to the whole group!",
+                "user_is": "user is",
+                "users_are": "users are",
+                "user_has": "user has",
+                "users_have": "users have"
+            },
+            "features": {
+                "modal_title": "{{featureType}} feature",
+                "modal_message": "You are going to <strong>{{action}}</strong> the {{featureType}} Feature. Do you want to apply the changes?",
+                "scrubbing": "Scrubbing",
+                "sweeping": "Sweeping",
+                "burnishing": "Burnishing",
+                "logging": "Logging",
+                "abw": "ABW",
+                "on": "turn on",
+                "off": "turn off",
+                "update_notice": "Please note that the Feature update will be applied after a key cycle"
+            }
+        },
+        "general": {
+            "title": "Tennant - Hercules Project",
+            "more": "more",
+            "hour": "h",
+            "note": "Note"
+        }
+    }
+}

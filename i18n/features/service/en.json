@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "service_efficiency": {
+            "service": "Service",
+            "provide_feedback": "Provide Feedback",
+            "provided_feedback": "Provided Feedback",
+            "provided_feedback_no_issue": "There was no incident",
+            "feedback_form": "Feedback Form",
+            "prioritized_reasons": "Prioritized Reasons",
+            "suggested_parts": "Suggested Parts",
+            "parts_used": "Parts Used",
+            "prioritized_fixes": "Prioritized Fixes",
+            "check_all_that_apply": "*Check all that apply",
+            "other": "Other",
+            "select_Incident_status": "Select Incident Status",
+            "one_reason_and_one_fix": "You must choose a reason and fix for the incident in order to resolve it. Your feedback is critical, it is being used to continually improve the recommendations.",
+            "successfully_recorded": "Feedback was successfully recorded.",
+            "successfully_received": "Incident was successfully received.",
+            "failed_to_load_incident": "Failed to load incident.",
+            "failed_to_create_feedback": "Failed to record feedback.",
+            "work_center_id": "Work Center Id",
+            "operator_id": "Operator Id",
+            "show_history": "Show Incident History",
+            "hide_history": "Hide Incident History",
+            "reason_for_Incident": "Reason for Incident",
+            "chosen_fixes": "Chosen Fixes",
+            "used_parts": "Used Parts",
+            "selected_reason": "Selected Reason",
+            "select_possible_reason": "Select Prioritized Reason",
+            "choose_possible_fix": "Choose Prioritized Fix",
+            "classification": "Classification",
+            "already_received": "Already Received",
+            "reject_incident": "Reject Incident",
+            "incident_notification": "Incident Notification",
+            "time_occurred": "Time Occurred",
+            "date_occurred": "Date Occurred",
+            "prediction_confidence": "Prediction Confidence",
+            "remote": "Remote",
+            "telefix": "Telefix",
+            "onSite": "On Site",
+            "none": "None",
+            "quantity": "Quantity",
+            "email_coped": "Email copied",
+            "notification_statuses": {
+                "canceled": "Canceled",
+                "fixed": "Fixed",
+                "no_issue": "No Issue",
+                "not_viewed": "Not Viewed",
+                "received": "Received",
+                "system": "System"
+            },
+            "classification_options": {
+                "WARNING": "Warning",
+                "CRITICAL": "Critical",
+                "MAINTENANCE": "Maintenance"
+            },
+            "prediction_confidence_levels": {
+                "HIGH": "High",
+                "MEDIUM": "Medium"
+            },
+            "tabs": {
+                "incident_details": "Incident Details",
+                "history": "History",
+                "manual": "Manual"
+            }
+        },
+        "service_history": {
+            "table_title": "Service History",
+            "contract_type": "Contract Type",
+            "contract_expires": "Contract Expires",
+            "warranty_expires": "Warranty Expires",
+            "request_id": "Request Id",
+            "tabs": {
+                "tasks": "Tasks",
+                "parts": "Parts"
+            }
+        },
+        "maintenance": {
+            "under_maintenance": "Portal maintenance is currently underway. The IRIS Portal will not be available until maintenance is complete on 1/30.  Thanks for your understanding as we continue to improve the system."
+        }
+    }
+}
