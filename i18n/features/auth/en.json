@@ -1,15 +1,17 @@
 {
-  "login": {
-    "subtitle": "Press on Login with My Account to continue",
-    "subtitle_internal": "Press on Login with ADB2C to continue",
-    "signin_button": "SIGN IN",
-    "is_new_user": "New User?",
-    "register_now": "Register now",
-    "forgot_password": "Forgot your sign in information?",
-    "note": "NOTE: If you see a warning message after \"Sign in\" Just click \"Continue\" or \"Send\" to proceed",
-    "instructions": "You’ll be redirected to an intermediate page to login in. Please use your MyTennant Account login credentials. The login page, as well as the new portal, are in the process of being built so please pardon the appearance.",
-    "internal_instructions": "Press on login to continue. You’ll be redirected to an intermediate page to login. Please use your ADB2C login credentials. The login page, as well as the new portal, are in the process of being built so please pardon the appearance.",
-    "time_zone": "Time Zone",
-    "time_zone_subheader": "In order to proceed further and use the portal, you should select a timezone."
+  "pages": {
+    "login": {
+      "subtitle": "Press on Login with My Account to continue",
+      "subtitle_internal": "Press on Login with ADB2C to continue",
+      "signin_button": "SIGN IN",
+      "is_new_user": "New User?",
+      "register_now": "Register now",
+      "forgot_password": "Forgot your sign in information?",
+      "note": "NOTE: If you see a warning message after \"Sign in\" Just click \"Continue\" or \"Send\" to proceed",
+      "instructions": "You’ll be redirected to an intermediate page to login in. Please use your MyTennant Account login credentials. The login page, as well as the new portal, are in the process of being built so please pardon the appearance.",
+      "internal_instructions": "Press on login to continue. You’ll be redirected to an intermediate page to login. Please use your ADB2C login credentials. The login page, as well as the new portal, are in the process of being built so please pardon the appearance.",
+      "time_zone": "Time Zone",
+      "time_zone_subheader": "In order to proceed further and use the portal, you should select a timezone."
+    }
   }
 }
