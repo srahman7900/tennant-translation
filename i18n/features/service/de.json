@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "service_efficiency": {
+            "service": "Bedienung",
+            "provide_feedback": "Rückmeldung geben",
+            "provided_feedback": "Feedback gegeben",
+            "provided_feedback_no_issue": "Es gab keinen Zwischenfall",
+            "feedback_form": "Feedback-Formular",
+            "prioritized_reasons": "Priorisierte Gründe",
+            "prioritized_fixes": "Priorisierte Fixes",
+            "suggested_parts": "Suggested Parts",
+            "parts_used": "Gebrauchte Teile",
+            "check_all_that_apply": "*Zutreffendes bitte ankreuzen",
+            "other": "Sonstiges",
+            "select_Incident_status": "Vorfallstatus auswählen",
+            "one_reason_and_one_fix": "U moet een reden en oplossing voor het incident kiezen om het op te lossen. Uw feedback is van cruciaal belang, deze wordt gebruikt om de aanbevelingen voortdurend te verbeteren.",
+            "successfully_recorded": "Feedback wurde erfolgreich aufgezeichnet.",
+            "successfully_received": "Incident wurde erfolgreich empfangen.",
+            "failed_to_load_incident": "Fehler beim Laden des Vorfalls.",
+            "failed_to_create_feedback": "Fehler beim Aufzeichnen des Feedbacks.",
+            "work_center_id": "Arbeitsplatz-ID",
+            "operator_id": "Betreiber-ID",
+            "show_history": "Vorfallhistorie anzeigen",
+            "hide_history": "Vorfallverlauf ausblenden",
+            "reason_for_Incident": "Grund für den Vorfall",
+            "chosen_fixes": "Ausgewählte Korrekturen",
+            "used_parts": "Gebrauchte Teile",
+            "selected_reason": "Ausgewählter Grund",
+            "select_possible_reason": "Priorisierten Grund auswählen",
+            "choose_possible_fix": "Wählen Sie Priorisierte Fehlerbehebung",
+            "classification": "Einstufung",
+            "already_received": "Bereits erhalten",
+            "reject_incident": "Vorfall ablehnen",
+            "incident_notification": "Vorfallbenachrichtigung",
+            "time_occurred": "Zeit aufgetreten",
+            "date_occurred": "Datum aufgetreten",
+            "prediction_confidence": "Vorhersagevertrauen",
+            "remote": "Fernbedienung",
+            "telefix": "Telefix",
+            "onSite": "Vor Ort",
+            "none": "Keiner",
+            "quantity": "Menge",
+            "email_coped": "E-Mail kopiert",
+            "notification_statuses": {
+                "canceled": "Abgesagt",
+                "fixed": "Fest",
+                "no_issue": "Kein Problem",
+                "not_viewed": "Nicht angesehen",
+                "received": "Hebben Ontvangen",
+                "system": "System"
+            },
+            "classification_options": {
+                "WARNING": "Warnung",
+                "CRITICAL": "Kritisch",
+                "MAINTENANCE": "Wartung"
+            },
+            "prediction_confidence_levels": {
+                "HIGH": "Hoch",
+                "MEDIUM": "Mittel"
+            },
+            "tabs": {
+                "incident_details": "Vorfalldetails",
+                "history": "Geschichte",
+                "manual": "Handbuch"
+            }
+        },
+        "service_history": {
+            "table_title": "Service-Geschichte",
+            "contract_type": "Vertragstyp",
+            "contract_expires": "Vertrag läuft ab",
+            "warranty_expires": "Garantie erlischt",
+            "request_id": "Anfrage ID",
+            "tabs": {
+                "tasks": "Aufgaben",
+                "parts": "Teile"
+            }
+        },
+        "maintenance": {
+            "under_maintenance": "Er wordt momenteel onderhoud gepleegd aan de portal. Het IRIS-portaal zal pas beschikbaar zijn als het onderhoud op 1/30 is voltooid. Bedankt voor uw begrip terwijl we doorgaan met het verbeteren van het systeem."
+        }
+    }
+}

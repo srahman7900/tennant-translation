@@ -1,0 +1,102 @@
+{
+    "pages": {
+        "machine": {
+            "feature": "Machine Features",
+            "updates": "Machine Updates",
+            "scrubbing-feature": "Scrubbing Feature",
+            "sweeping-feature": "Sweeping Feature",
+            "burnish-feature": "Burnishing",
+            "auto-battery-watering": "Auto Battery Watering",
+            "logging": "Machine Logging",
+            "avg_hours_per_day": "Moy. heures par jour",
+            "total_run_time": "Durée totale de fonctionnement",
+            "total_clean_time": "Temps de nettoyage total",
+            "avg_clean_hours_per_day": "Moy. Heures de nettoyage par jour",
+            "runtime_graph_title": "Heures",
+            "runtime_graph_machines_title": "Machines",
+            "runtime_graph_reporting_title": "Rapports",
+            "runtime_graph_hrs_title": "Heures",
+            "runtime_graph_avg_hours": "Heures moyennes",
+            "software_version": "Une version de logiciel",
+            "production_date": "Date de production",
+            "last_service_performed": "Dernier service effectué",
+            "view_less": "Voir moins",
+            "view_more": "Voir plus",
+            "logs": {
+                "logs_title_singular": "Journal",
+                "logs_title_plural": "Journaux",
+                "log_suffix": "Journaux de la machine",
+                "refresh_title": "Veuillez patienter pendant la génération du journal. Le système vérifiera automatiquement si les journaux sont prêts",
+                "error": "<strong>Erreur est survenue.</strong> Veuillez réessayer plus tard.",
+                "view_logs": "Ver los registros",
+                "previously_machine_log": "Los registros de la máquina para la fecha seleccionada se vieron previamente.",
+                "new_machine_log": "Forzar nuevo registro de máquina",
+                "previous_download": "Ver descarga anterior"
+            },
+            "manual_sync": {
+                "left_uploads": "{{value}} {{uploadString}} laissé pour ce mois",
+                "zero_uploads": "0 demandes restantes. Vous pouvez effectuer un autre téléchargement le mois prochain",
+                "wait_while_hours_sync": "Le système vérifiera automatiquement si le téléchargement est prêt dans ",
+                "successfully_sunced": "Heures synchronisées avec succès",
+                "manual_sync": "Synchronisation manuelle",
+                "upload": "télécharger",
+                "uploads": "téléversements",
+                "last_synced": "Dernière synchronisation",
+                "device_not_connected": "L'appareil n'est pas connecté",
+                "sync_command_running": "La commande des heures de synchronisation est en cours d'exécution"
+            },
+            "battery_level": "Niveau de batterie du tracker",
+            "hour_meter": {
+                "label": "Compteur horaire",
+                "current_hour_meter": "Compteur horaire actuel : {{value}} h",
+                "manage": "Gérer"
+            },
+            "invalid_machineId": "Vous n'avez pas accès à {{machineId}}"
+        },
+        "audit_hour_meter": {
+            "title": "Compteur horaire d'audit",
+            "current_hour_meter": "Compteur d'heures actuel :",
+            "type_in_hour_meter": "Tapez dans le compteur d'heures",
+            "hour_meter_required": "Le compteur d'heures ne peut pas être vide.",
+            "hour_meter_min": "Seuls les nombres positifs sont autorisés.",
+            "hour_meter_max": "La valeur du compteur d'heures ne doit pas dépasser 8 chiffres.",
+            "hour_meter_decimal_places": "Seules deux décimales sont autorisées.",
+            "notes": "Remarques",
+            "notes_required": "Les remarques ne peuvent pas être vides.",
+            "notes_limit": "Limite de caractères dépassée. Maximum autorisé : 250 caractères.",
+            "notes_leading_space": "Aucun espace avant ou après n'est autorisé."
+        },
+        "machine-usage": {
+            "title": "Utilisation de la machine",
+            "totals": "Totaux",
+            "scrub": "Lavage",
+            "propel": "Traction",
+            "charge_complete_incomplete": "Charge incomplète / terminée",
+            "charge_error": "Erreur de charge",
+            "ec-h2o": "ec-H2O",
+            "incomplete_charge": "Charge incomplète",
+            "complete_charge": "Charge complète",
+            "days": "journées",
+            "day": "journée",
+            "have_to_select_time_period": "Vous devez sélectionner la période d'utilisation de la machine.",
+            "filter_up_to": "Vous ne pouvez filtrer que 31 jours à la fois",
+            "no_results": "Il n'y a aucun résultat pour la période sélectionnée.",
+            "no_data": "Pas de données",
+            "supports_total_only": "Prend en charge le total uniquement",
+            "supports_clean_time_only": "Prend en charge le temps de nettoyage uniquement",
+            "clean": "Nettoyer",
+            "impact": "Impacter",
+            "site": "Placer",
+            "region": "Région"
+        },
+        "usage": {
+            "machine_usage": "Utilisation de la machine",
+            "hours": "Heures",
+            "run": "En fonctionnement",
+            "charge": "Charge"
+        },
+        "runtime": {
+            "title": "DURÉE"
+        }
+    }
+}

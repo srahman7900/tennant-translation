@@ -1,0 +1,229 @@
+{
+    "device_errors_definitions": {
+        "0xfff0": {
+            "title": "E-Stop Active Fault",
+            "description": "E-Stop Active Fault",
+            "possible_reasons": [
+                "E-Stop pressed.",
+                "Large white iDrive connector unplugged.",
+                "Large white iDrive connector pin 7 disconnected.",
+                "iDrive power wire unplugged.",
+                "Scrub Controller board connector J9 pin 2 disconnected.",
+                "Scrub Controller board connector J8 unplugged.",
+                "Scrub Controller board connector J8 pin 7 disconnected."
+            ],
+            "possible_actions": [
+                "Key off machine.",
+                "Press and reset E-Stop button.",
+                "Key on machine.",
+                "If fault persists, check harness connections between Estop and control module.",
+                "Replace or repair harness.",
+                "Replace E-STOP."
+            ]
+        },
+        "0x0501": {
+            "title": "Vacuum Motor Open Warning",
+            "description": "Vacuum Motor Open Fault",
+            "possible_reasons": [
+                "Wiring, connector or control board issue on the vacuum.",
+                "J10 connector on Scrub Controller board unplugged.",
+                "Scrub Controller board power disconnected.",
+                "Scrub Controller inline power fuse defective/blown."
+            ],
+            "possible_actions": [
+                "Needs repair. Check connections. Board gets power from key switch and battery."
+            ]
+        },
+        "0x0712": {
+            "title": "EC-H2O Pump Breaker Tripped Warning",
+            "description": "EC-H20 pump breaker Fault",
+            "possible_reasons": [
+                "Detected module circuit breaker trip.",
+                "Scrub Controller board J4 connector unplugged.",
+                "Scrub Controller board J4 connector pin 1 disconnected."
+            ],
+            "possible_actions": [
+                "Power cycle machine. Check connections. If warning persists, contact service."
+            ]
+        },
+        "0x8001": {
+            "title": "Scrubbing feature disabled remotely",
+            "description": "Scrubbing feature disabled remotely",
+            "possible_reasons": [
+                "Scrubbing feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "0x8002": {
+            "title": "ABW feature disabled remotely",
+            "description": "ABW feature disabled remotely",
+            "possible_reasons": [
+                "ABW feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "00": {
+            "title": "Erreur de chargeur",
+            "description": "Déclenché si une erreur de chargeur est signalée.",
+            "possible_reasons": [
+                "Le chargeur ne fonctionne pas correctement"
+            ],
+            "possible_actions": [
+                "Débranchez votre chargeur et rebranchez-le pour le redémarrer. Remplacez votre chargeur."
+            ]
+        },
+        "nocharge": {
+            "title": "Gratuit",
+            "description": "Déclenché si la machine a signalé une utilisation mais que la batterie n'a pas été chargée ce jour-là.",
+            "possible_reasons": [
+                "La machine a été utilisée mais pas chargée le même jour."
+            ],
+            "possible_actions": [
+                "Assurez-vous de charger la machine après utilisation à la fin d'un quart de travail."
+            ]
+        },
+        "lowusage": {
+            "title": "Faible utilisation",
+            "description": "Déclenché si la machine est utilisée moins que le nombre d'heures sélectionné par l'utilisateur (par défaut à 0 heure).",
+            "possible_reasons": [
+                "La machine a été utilisée moins que le nombre d'heures sélectionné par l'utilisateur."
+            ],
+            "possible_actions": [
+                "Modifiez (diminuez) les heures sélectionnées pour qu'elles soient inférieures à votre durée d'utilisation moyenne à partir de la configuration."
+            ]
+        },
+        "relocation": {
+            "title": "Machine déplacée",
+            "description": "Déclenché si la machine a signalé un emplacement situé en dehors du rayon défini de son emplacement d'origine. Ce rayon peut être défini par l'utilisateur dans la page de configuration.",
+            "possible_reasons": [
+                "La machine a été déplacée hors de son rayon d'origine."
+            ],
+            "possible_actions": [
+                "Amenez la machine dans son rayon d'origine. Augmentez la distance du rayon autorisé."
+            ]
+        },
+        "opportunitycharge": {
+            "title": "Frais d'opportunité",
+            "description": "La machine a signalé que sa batterie était branchée pour la charge mais pas complètement.",
+            "possible_reasons": [
+                "La machine a reçu une charge partielle."
+            ],
+            "possible_actions": [
+                "Assurez-vous de charger complètement la machine avant de la débrancher. La charge partielle d'une batterie au plomb peut réduire la durée de vie de la batterie."
+            ]
+        },
+        "impactdetected": {
+            "description": "Déclenché si la machine détecte un impact important. Vérifiez que la machine n'est pas endommagée."
+        },
+        "nocommunication": {
+            "title": "Pas de communication",
+            "description": "Déclenché si une machine n'a pas communiqué avec le portail pendant la période sélectionnée.",
+            "possible_reasons": [
+                "Mauvaise couverture cellulaire.",
+                "Batterie si complètement déchargée.",
+                "Antenne ou composant matériel endommagé."
+            ],
+            "possible_actions": [
+                "Déplacez la machine vers un autre emplacement avec une meilleure couverture cellulaire.",
+                "Charger la batterie.",
+                "Appelez le service après-vente pour le remplacement des composants."
+            ]
+        },
+        "noserviceperformed": {
+            "title": "Pas de service effectué ",
+            "Description": "Déclenché si une machine n'a pas été entretenue dans la période sélectionnée.",
+            "possible_reasons": [
+                "Le service n'a pas été effectué sur la machine dans la période sélectionnée."
+            ],
+            "Possible_actions": [
+                "Contactez Tennant pour effectuer le service.",
+                "Ajustez l'intervalle de temps avant que le service ne doit être effectué."
+            ]
+        },
+        "servicerequest": {
+            "description": "Déclenché si une demande de service a été créée ou complétée. Une demande de service peut être créée par le système IRIS."
+        },
+        "automaticbatterywatering": {
+            "title": "RÉSERVOIR ABW VIDE",
+            "description": "Déclenché lorsque le réservoir de remplissage automatique de la batterie (ABW) doit être rempli d'eau distillée.",
+            "possible_reasons": [
+                "Le réservoir d'eau de la batterie est vide.",
+                "La machine a été utilisée de manière continue avec un défaut de réservoir d'eau de batterie vide actif (0x0B06)."
+            ],
+            "possible_actions": [
+                "Remplissez le réservoir d'eau de la batterie avec de l'eau distillée, puis effectuez un cycle clé de la machine."
+            ]
+        },
+        "maintenancereminder": {
+            "title": "MAINTENANCE REMINDER",
+            "description": "Déclenché si une machine atteint un seuil d'heures de nettoyage.",
+            "possible_reasons": {
+                "T600E": [
+                    "Les lames de raclette doivent être inspectées pour déceler tout dommage et toute déviation appropriée",
+                    "Les roulettes de raclette doivent être inspectées pour déceler tout dommage",
+                    "Le tuyau d'aspiration doit être inspecté pour déceler des obstructions ou des dommages",
+                    "La conduite d’écoulement de solution et le filtre doivent être inspectés pour déceler des obstructions et des dommages",
+                    "Le tuyau de vidange du réservoir de récupération doit être inspecté pour déceler des obstructions ou des dommages",
+                    "Les tampons ou l'ensemble de brosses doivent être inspectés pour déceler toute usure",
+                    "Le joint du couvercle du réservoir de récupération doit être inspecté pour détecter tout dommage",
+                    "Le bac à débris doit être inspecté pour déceler des obstructions ou des dommages",
+                    "Le réservoir du piège à gouttes de l'assemblage de la raclette doit être inspecté pour déceler toute obstruction"
+                ],
+                "X4ROVR": [
+                    "Les tampons ou l'ensemble de brosse doivent être inspectés pour l'usure et la détérioration",
+                    "Les lames de raclette latérales et arrière doivent être inspectées pour les dommages et la déflexion correcte",
+                    "Les capteurs 2D et 3D avant/latéraux et les capteurs LIDAR supérieurs/inférieurs doivent être inspectés pour les dommages et la saleté",
+                    "Les protections périmétriques gauche, droite et avant doivent être inspectées pour les dommages, les débris et l'usure",
+                    "Le tuyau de vidange du réservoir de récupération doit être inspecté pour les obstructions ou les dommages",
+                    "Le joint du couvercle du réservoir de récupération doit être inspecté pour les dommages",
+                    "Le plateau à débris doit être inspecté pour les obstructions ou les dommages",
+                    "La ligne de flux de solution et le filtre doivent être inspectés pour les obstructions et les dommages",
+                    "Le tuyau d'aspiration doit être inspecté pour les obstructions ou les dommages"
+                ]
+            },
+            "possible_actions": {
+                "T600E": [
+                    "Chaque lame de raclette possède quatre bords d'essuyage. Faites pivoter les lames vers un bord inutilisé. Si les quatre bords sont usés, remplacez les lames de la raclette. Vérifiez la déflexion de la lame de la raclette vers le sol. La lame arrière doit fléchir uniformément sur toute la longueur de la raclette à 45 degrés",
+                    "Lubrifiez les roulettes arrière. Si elles sont usées, remplacez les roulettes arrière",
+                    "Rincer le tuyau d'aspiration. Vérifiez les dommages et remplacez-les si endommagés",
+                    "Videz et rincez le réservoir de solution. Retirer et nettoyer le filtre du réservoir de solution",
+                    "Vérifiez le filtre à solution pour déceler tout dommage et remplacez-le s'il est endommagé",
+                    "Nettoyer et rincer le tuyau de vidange de récupération. Vérifiez les dommages et remplacez-les si endommagés",
+                    "Remplacez les tampons ou l'ensemble de brosse s'ils sont usés ou endommagés",
+                    "Rincer le réservoir de récupération. Retirer et nettoyer le tamis d'arrêt du flotteur",
+                    "Nettoyer le joint du couvercle du réservoir de récupération. Remplacer si endommagé",
+                    "Retirez et nettoyez le bac à débris. Remplacer si endommagé",
+                    "Retirez le couvercle du piège à gouttes de l'ensemble raclette et nettoyez le réservoir"
+                ],
+                "X4ROVR": [
+                    "Remplacer les plaquettes ou l'ensemble de brosses s'ils sont usés ou endommagés",
+                    "Chaque lame de raclette arrière possède deux bords d'essuyage. Faites pivoter les lames sur un bord non utilisé. Si tous les bords sont usés, remplacez les lames de raclette. Chaque lame de raclette latérale possède quatre bords d'essuyage. Faites pivoter les lames sur un bord non utilisé. Une fois les deux bords usés, échangez les lames de raclette d'un côté de la machine à l'autre pour utiliser les bords opposés. Remplacez les lames lorsque tous les bords sont usés. Vérifiez la courbure de la lame de raclette par rapport au sol",
+                    "Vérifiez s'il y a des dommages sur le capteur. Nettoyez-le avec le chiffon en microfibre fourni. Remplacez-le s'il est endommagé",
+                    "Remplacez les ensembles de brosses périmétriques endommagés et/ou usés. Inspectez les plaques de réglage pour voir si elles glissent. Ajustez si nécessaire",
+                    "Vidangez le réservoir de récupération. Retirez et nettoyez le filtre à flotteur. Nettoyez et rincez le tuyau de vidange de récupération. Vérifiez s'il est endommagé et remplacez-le s'il est nécessaire",
+                    "Nettoyez le joint du couvercle du réservoir de récupération. Remplacez-le s'il est endommagé",
+                    "Retirez et nettoyez le bac à débris. Remplacez-le s'il est endommagé",
+                    "Vidangez et rincez le réservoir de solution. Retirez et nettoyez le filtre du réservoir de solution. Vérifiez si le filtre à solution est endommagé et remplacez-le s'il est nécessaire",
+                    "Rincer le tuyau d'aspiration. Vérifiez s'il est endommagé et remplacez-le s'il est nécessaire"
+                ]
+            }
+        },
+        "notreachingcleantimegoals": {
+            "title": "Ne pas atteindre les objectifs de temps de propreté",
+            "description": "Déclenché si la machine est utilisée moins que l'objectif de temps de nettoyage.",
+            "possible_reasons": [
+                "La machine a été utilisée moins que l'objectif de temps de nettoyage défini dans la page de configuration.",
+                "L'objectif de temps de nettoyage attendu peut être trop élevé par rapport aux habitudes d'utilisation réelles.",
+                "Les temps d'arrêt opérationnels, les opérations de maintenance ou les vacances peuvent avoir affecté l'utilisation."
+            ],
+            "possible_actions": [
+                "Ajustez (diminuez) l’objectif de temps de nettoyage quotidien prévu pour mieux correspondre à l’utilisation moyenne de votre machine.",
+                "Examinez les programmes des machines et assurez-vous qu’ils correspondent aux objectifs d’utilisation prévus."
+            ]
+        }
+    }
+}

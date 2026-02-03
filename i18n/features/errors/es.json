@@ -1,0 +1,229 @@
+{
+    "device_errors_definitions": {
+        "0xfff0": {
+            "title": "E-Stop Active Fault",
+            "description": "E-Stop Active Fault",
+            "possible_reasons": [
+                "E-Stop pressed.",
+                "Large white iDrive connector unplugged.",
+                "Large white iDrive connector pin 7 disconnected.",
+                "iDrive power wire unplugged.",
+                "Scrub Controller board connector J9 pin 2 disconnected.",
+                "Scrub Controller board connector J8 unplugged.",
+                "Scrub Controller board connector J8 pin 7 disconnected."
+            ],
+            "possible_actions": [
+                "Key off machine.",
+                "Press and reset E-Stop button.",
+                "Key on machine.",
+                "If fault persists, check harness connections between Estop and control module.",
+                "Replace or repair harness.",
+                "Replace E-STOP."
+            ]
+        },
+        "0x0501": {
+            "title": "Vacuum Motor Open Warning",
+            "description": "Vacuum Motor Open Fault",
+            "possible_reasons": [
+                "Wiring, connector or control board issue on the vacuum.",
+                "J10 connector on Scrub Controller board unplugged.",
+                "Scrub Controller board power disconnected.",
+                "Scrub Controller inline power fuse defective/blown."
+            ],
+            "possible_actions": [
+                "Needs repair. Check connections. Board gets power from key switch and battery."
+            ]
+        },
+        "0x0712": {
+            "title": "EC-H2O Pump Breaker Tripped Warning",
+            "description": "EC-H20 pump breaker Fault",
+            "possible_reasons": [
+                "Detected module circuit breaker trip.",
+                "Scrub Controller board J4 connector unplugged.",
+                "Scrub Controller board J4 connector pin 1 disconnected."
+            ],
+            "possible_actions": [
+                "Power cycle machine. Check connections. If warning persists, contact service."
+            ]
+        },
+        "0x8001": {
+            "title": "Scrubbing feature disabled remotely",
+            "description": "Scrubbing feature disabled remotely",
+            "possible_reasons": [
+                "Scrubbing feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "0x8002": {
+            "title": "ABW feature disabled remotely",
+            "description": "ABW feature disabled remotely",
+            "possible_reasons": [
+                "ABW feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "00": {
+            "title": "Error del cargador",
+            "description": "Se activa si se informa de un error del cargador.",
+            "possible_reasons": [
+                "El cargador no funciona correctamente"
+            ],
+            "possible_actions": [
+                "Desenchufe el cargador y vuelva a enchufarlo para reiniciarlo. Sustituya el cargador."
+            ]
+        },
+        "nocharge": {
+            "title": "Sin carga",
+            "description": "Se activa si la máquina informó del uso, pero la batería no se cargó en ese mismo día.Se activa si la máquina informó del uso, pero la batería no se cargó en ese mismo día.",
+            "possible_reasons": [
+                "La máquina se utilizó pero no se cargó el mismo día."
+            ],
+            "possible_actions": [
+                "Asegúrese de cargar la máquina después de su uso, cuando finalice el turno."
+            ]
+        },
+        "lowusage": {
+            "title": "Uso bajo",
+            "description": "Se activa si la máquina se usa menos que el número de horas seleccionado por el usuario (el valor predeterminado es 0 horas).",
+            "possible_reasons": [
+                "La máquina se utilizó menos de las horas seleccionadas por el usuario."
+            ],
+            "possible_actions": [
+                "Cambie (disminuya) las horas seleccionadas para que sean inferiores al  tiempo de uso promedio, desde el apartado Configuración."
+            ]
+        },
+        "relocation": {
+            "title": "Máquina reubicada",
+            "description": "Se activa si la máquina informa de una ubicación que está fuera del radio establecido de su ubicación inicial. El usuario puede configurar este radio en la página de configuración.",
+            "possible_reasons": [
+                "La máquina se ha movido fuera de su radio de residencia."
+            ],
+            "possible_actions": [
+                "Traiga la máquina dentro de su radio de residencia. Aumente la distancia del radio permitido."
+            ]
+        },
+        "opportunitycharge": {
+            "title": "Carga incompleta",
+            "description": "La máquina informó que la batería estaba enchufada para cargarla, pero no hasta el final.",
+            "possible_reasons": [
+                "La máquina recibió una carga parcial."
+            ],
+            "possible_actions": [
+                "Asegúrese de cargar la máquina completamente antes de desenchufarla. La carga parcial de una batería de plomo ácido puede acortar su vida útil."
+            ]
+        },
+        "impactdetected": {
+            "description": "Se activa si la máquina detecta un impacto sustancial. Compruebe la máquina por posibles daños."
+        },
+        "nocommunication": {
+            "title": "Sin comunicacion",
+            "description": "Se activa si una máquina no se ha comunicado con el portal durante el período seleccionado.",
+            "possible_reasons": [
+                "Poca cobertura celular.",
+                "Batería si está totalmente agotada.",
+                "Antena o componente de hardware dañado."
+            ],
+            "possible_actions": [
+                "Mueva la máquina a una ubicación diferente con mejor cobertura celular.",
+                "Carga la batería.",
+                "Llame al Servicio para el reemplazo de componentes."
+            ]
+        },
+        "noserviceperformed": {
+            "title": "No se realiza ningún servicio",
+            "description": "Activado si una máquina no ha sido reparada en el período seleccionado.",
+            "possible_reasons": [
+                "El servicio no se ha realizado en la máquina en el período seleccionado."
+            ],
+            "possible_actions": [
+                "Póngase en contacto con Tennant para realizar el servicio. ",
+                " Ajuste el intervalo de tiempo antes de que se debe realizar el servicio."
+            ]
+        },
+        "servicerequest": {
+            "description": "Se activa si se ha creado o completado una solicitud de servicio. El sistema IRIS puede crear una solicitud de servicio."
+        },
+        "automaticbatterywatering": {
+            "title": "DEPÓSITO ABW VACÍO",
+            "description": "Se activa cuando es necesario llenar el tanque de riego automático de la batería (ABW) con agua destilada.",
+            "possible_reasons": [
+                "El depósito de agua de la batería está vacío.",
+                "La máquina ha tenido un uso continuado con la falla activa del tanque de riego de la batería vacío (0x0B06)."
+            ],
+            "possible_actions": [
+                "Vuelva a llenar el tanque de agua de la batería con agua destilada y luego haga un ciclo clave de la máquina."
+            ]
+        },
+        "maintenancereminder": {
+            "title": "MAINTENANCE REMINDER",
+            "description": "Se activa si una máquina alcanza un umbral de horas de limpieza.",
+            "possible_reasons": {
+                "T600E": [
+                    "Las hojas de la escobilla de goma deben inspeccionarse para detectar daños y deflexión adecuada",
+                    "Las ruedas de la escobilla de goma deben inspeccionarse para detectar daños",
+                    "La manguera de vacío debe inspeccionarse para detectar obstrucciones o daños",
+                    "La línea de flujo de solución y el filtro deben inspeccionarse para detectar obstrucciones y daños",
+                    "La manguera de drenaje del tanque de recuperación debe inspeccionarse para detectar obstrucciones o daños",
+                    "Se deben inspeccionar las almohadillas o el conjunto del cepillo para detectar desgaste",
+                    "Se debe inspeccionar el sello de la tapa del tanque de recuperación para detectar daños",
+                    "La bandeja de residuos debe inspeccionarse para detectar obstrucciones o daños",
+                    "Se debe inspeccionar el depósito de la trampa de goteo del conjunto de la escobilla de goma para detectar obstrucciones"
+                ],
+                "X4ROVR": [
+                    "Las almohadillas o el conjunto del cepillo deben inspeccionarse en busca de desgaste y deterioro",
+                    "Las cuchillas de la escobilla lateral y trasera deben inspeccionarse en busca de daños y desviación adecuada",
+                    "Los sensores 2D y 3D delanteros/laterales y los sensores LIDAR superiores/inferiores deben inspeccionarse en busca de daños y suciedad",
+                    "Los protectores perimetrales izquierdo, derecho y frontal deben inspeccionarse en busca de daños, escombros y desgaste",
+                    "La manguera de drenaje del tanque de recuperación debe inspeccionarse en busca de obstrucciones o daños",
+                    "El sello de la tapa del tanque de recuperación debe inspeccionarse en busca de daños",
+                    "La bandeja de escombros debe inspeccionarse en busca de obstrucciones o daños",
+                    "La línea de flujo de solución y el filtro deben inspeccionarse en busca de obstrucciones y daños",
+                    "La manguera de vacío debe inspeccionarse en busca de obstrucciones o daños"
+                ]
+            },
+            "possible_actions": {
+                "T600E": [
+                    "Cada escobilla de goma tiene cuatro bordes de limpieza. Gire las cuchillas hasta un borde no utilizado. Si los cuatro bordes están desgastados, reemplace las hojas de la escobilla de goma. Verifique la desviación de la hoja de la escobilla de goma hacia el piso. La hoja trasera debe desviarse uniformemente a lo largo de toda la escobilla de goma a 45 grados",
+                    "Lubrique las ruedas traseras. Si están desgastadas, reemplace las ruedas traseras",
+                    "Manguera de vacío de descarga. Verifique si hay daños y reemplácelo si está dañado",
+                    "Drene y enjuague el tanque de solución. Retire y limpie el filtro del tanque de solución",
+                    "Revise el filtro de solución en busca de daños y reemplácelo si está dañado",
+                    "Limpie y enjuague la manguera de drenaje de recuperación. Verifique si hay daños y reemplácelo si está dañado",
+                    "Reemplace las almohadillas o el conjunto del cepillo si están desgastados o dañados",
+                    "Lavar el tanque de recuperación. Retire y limpie la rejilla de cierre del flotador",
+                    "Limpiar el sello de la tapa del tanque de recuperación. Reemplazar si está dañado",
+                    "Retire y limpie la bandeja de residuos. Reemplazar si está dañado",
+                    "Retire la cubierta de la trampa de goteo del conjunto de la escobilla de goma y limpie el depósito"
+                ],
+                "X4ROVR": [
+                    "Reemplace las almohadillas o el conjunto del cepillo si están desgastados o dañados",
+                    "Cada cuchilla de la escobilla trasera tiene dos bordes de limpieza. Gire las cuchillas a un borde no utilizado. Si todos los bordes están desgastados, reemplace las cuchillas de la escobilla. Cada cuchilla de la escobilla lateral tiene cuatro bordes de limpieza. Gire las cuchillas a un borde no utilizado. Una vez que ambos bordes estén desgastados, intercambie las cuchillas de la escobilla de un lado de la máquina al otro para usar los bordes opuestos. Reemplace las cuchillas cuando todos los bordes estén desgastados. Verifique la deflexión de la cuchilla de la escobilla al suelo",
+                    "Verifique si hay daños en el sensor. Limpie con el paño de microfibra proporcionado. Reemplace si está dañado",
+                    "Reemplace los conjuntos de cerdas perimetrales dañados y/o desgastados. Inspeccione las placas de ajuste para detectar deslizamientos. Ajuste según sea necesario",
+                    "Lave el tanque de recuperación. Retire y limpie la pantalla de apagado del flotador. Limpie y lave la manguera de drenaje de recuperación. Verifique si hay daños y reemplace si está dañado",
+                    "Limpie el sello de la tapa del tanque de recuperación. Reemplace si está dañado",
+                    "Retire y limpie la bandeja de escombros. Reemplace si está dañada",
+                    "Drene y enjuague el tanque de solución. Retire y limpie el filtro del tanque de solución. Verifique si el filtro de solución está dañado y reemplace si está dañado",
+                    "Lave la manguera de vacío. Verifique si hay daños y reemplace si está dañada"
+                ]
+            }
+        },
+        "notreachingcleantimegoals": {
+            "title": "No alcanzar las metas de tiempo limpio",
+            "description": "Se activa si la máquina se usa menos tiempo que el objetivo de tiempo de limpieza.",
+            "possible_reasons": [
+                "La máquina se usó menos del objetivo de tiempo de limpieza establecido en la página de configuración.",
+                "El tiempo de limpieza esperado puede ser demasiado alto en comparación con los patrones de uso reales.",
+                "El tiempo de inactividad operativa, el mantenimiento o las vacaciones pueden haber afectado el uso."
+            ],
+            "possible_actions": [
+                "Ajuste (disminuya) el objetivo de tiempo de limpieza diario esperado para que coincida mejor con el uso promedio de su máquina.",
+                "Revise los programas de las máquinas y asegúrese de que se alineen con los objetivos de uso esperados."
+            ]
+        }
+    }
+}

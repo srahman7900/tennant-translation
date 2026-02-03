@@ -1,0 +1,17 @@
+{
+    "pages": {
+        "login": {
+            "subtitle": "Klicken Sie auf Mit meinem Konto anmelden, um fortzufahren",
+            "subtitle_internal": "Klicken Sie auf Mit ADB2C anmelden, um fortzufahren",
+            "signin_button": "SIGN IN",
+            "is_new_user": "New User?",
+            "register_now": "Register now",
+            "forgot_password": "Forgot your sign in information?",
+            "note": "NOTE: If you see a warning message after \"Sign in\" Just click \"Continue\" or \"Send\" to proceed",
+            "instructions": "Sie werden auf eine Zwischenseite weitergeleitet, um sich anzumelden. Bitte verwenden Sie Ihre Anmeldeinformationen für das MyTennant-Konto. Die Anmeldeseite sowie das neue Portal werden gerade erstellt. Bitte entschuldigen Sie das Erscheinungsbild.",
+            "internal_instructions": "Drücken Sie auf Login, um fortzufahren. Sie werden zur Anmeldung auf eine Zwischenseite weitergeleitet. Bitte verwenden Sie Ihre ADB2C-Anmeldeinformationen. Die Anmeldeseite sowie das neue Portal werden gerade erstellt. Bitte entschuldigen Sie das Erscheinungsbild.",
+            "time_zone": "Zeitzone",
+            "time_zone_subheader": "Um fortzufahren und das Portal zu nutzen, sollten Sie eine Zeitzone auswählen."
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "overview": {
+            "title": "Aperçu",
+            "location": "Emplacement",
+            "view_more": "Voir plus",
+            "site": "Placer",
+            "region": "Région",
+            "last_data_upload": "Dernière mise à jour du statut",
+            "last_reported_location": "Dernier emplacement signalé",
+            "pending_alerts": "Alertes en attente",
+            "alerts": "Alertes",
+            "avgRunTime": "Moy. Durée de fonctionnement quotidienne",
+            "avgCleanTime": "Moy. Temps de nettoyage quotidien",
+            "machinesLowUsage": "Machines à faible utilisation",
+            "lowUsageAlerts": "Alertes de faible utilisation",
+            "machinesHighUsage": "Machines à utilisation élevée",
+            "machinesReporting": "Rapports de la machines / Total",
+            "impacts": "Les impacts",
+            "batteryHealth": "Santé de la batterie",
+            "customer": "Client"
+        },
+        "overview_metrics": {
+            "welcome_back": "CONTENT DE TE REVOIR",
+            "logged_in_as": "Connecté en tant que",
+            "avg_clean_time": "Temps moyen de nettoyage quotidien",
+            "time_frame_not_support_trends": "La période ne prend pas en charge les tendances",
+            "change_from_previous": "Changement par rapport à la précédente",
+            "no_change_from_previous": "Pas de changement par rapport à la précédente",
+            "from_previous": "par rapport à la précédente",
+            "limited_access": "ACCÈS LIMITÉ",
+            "not_available_for_customers": "Non disponible pour les clients pour le moment.",
+            "only_available_for_certain_customers": "Disponible uniquement pour certains clients. Veuillez contacter votre représentant commercial pour plus d'informations.",
+            "alerts_disabled": "ALERTES DÉSACTIVÉES",
+            "alerts_must_be_enabled": "Les alertes doivent être activées depuis l'onglet Configuration pour voir cette métrique.",
+            "only_available_on_desktop": "Disponible uniquement sur ordinateur.",
+            "clean_time": "Temps de nettoyage",
+            "not_reaching_clean_time_goals": "Objectifs de temps de nettoyage non atteints",
+            "total_clean_time": "Temps total de nettoyage",
+            "battery": "Batterie",
+            "replacement_needed": "Remplacement nécessaire",
+            "location": "Emplacement",
+            "relocation_alerts": "Alertes de relocalisation",
+            "fleet_technology": "Technologie de la flotte",
+            "fleet_technology_type": {
+                "LITE": "Lite",
+                "GEN_1": "Gen 1",
+                "GEN_2": "Gen 2",
+                "UNKNOWN": "Inconnu"
+            },
+            "unit": {
+                "hours": "Heures",
+                "machines": "Machines"
+            },
+            "charging_behavior": "Comportement de charge",
+            "charging_behavior_type": {
+                "complete": "Complète",
+                "incomplete": "Incomplète",
+                "no_charge": "Pas de charge"
+            },
+            "charging_behavior_no_data": "Aucune donnée disponible",
+            "incomplete_charge": "Charge incomplète",
+            "open_requests": "Demandes ouvertes",
+            "total_open_requests": "Total des demandes ouvertes",
+            "total": "Total",
+            "created": "Créé",
+            "completed": "Terminé",
+            "trend_value:": "Valeur de tendance",
+            "role": {
+                "Super_Admin": "Super Administrateur",
+                "Internal_Admin": "Administrateur interne",
+                "Internal_Support": "Support interne",
+                "Internal_Dev": "Développeur interne",
+                "Customer_Admin": "Administrateur client",
+                "Customer": "Client"
+            },
+            "low_usage_reported": "Faible utilisation signalée",
+            "impact_activity": "Activité impactante",
+            "non_reporting_fleet": "Flotte non déclarante"
+        }
+    }
+}

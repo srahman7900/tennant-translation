@@ -1,0 +1,81 @@
+{
+    "pages": {
+        "overview": {
+            "title": "Überblick",
+            "location": "Ort",
+            "view_more": "Mehr sehen",
+            "site": "Standort",
+            "region": "Region",
+            "last_data_upload": "Letzter Daten-Upload",
+            "last_reported_location": "Letzter Gemeldeter Standort",
+            "pending_alerts": "Ausstehende Warnungen",
+            "alerts": "Warnungen",
+            "avgRunTime": "Durchschn. tägliche Laufzeit",
+            "avgCleanTime": "Durchschn. Tägliche Reinigungszeit",
+            "machinesLowUsage": "Maschinen mit geringer Nutzung",
+            "lowUsageAlerts": "Warnungen bei geringer Nutzung",
+            "machinesHighUsage": "Maschinen mit hoher Nutzung",
+            "machinesReporting": "Maschinenberichterstattung / Gesamt",
+            "impacts": "Auswirkungen",
+            "batteryHealth": "Batteriezustand"
+        },
+        "overview_metrics": {
+            "welcome_back": "HERZLICH WILLKOMMEN",
+            "logged_in_as": "Angemeldet als",
+            "avg_clean_time": "Durchschnittliche tägliche Reinigungszeit",
+            "time_frame_not_support_trends": "Der Zeitraum unterstützt keine Trends",
+            "change_from_previous": "Veränderung gegenüber dem vorherigen",
+            "no_change_from_previous": "Keine Veränderung gegenüber dem vorherigen",
+            "from_previous": "vom vorherigen",
+            "limited_access": "EINGESCHRÄNKTER ZUGRIFF",
+            "not_available_for_customers": "Derzeit für Kunden nicht verfügbar.",
+            "only_available_for_certain_customers": "Nur für bestimmte Kunden verfügbar. Bitte wenden Sie sich für weitere Informationen an Ihren Vertriebsmitarbeiter.",
+            "alerts_disabled": "ALERTE DEAKTIVIERT",
+            "alerts_must_be_enabled": "Alarme müssen im Reiter 'Setup' aktiviert sein, um diese Metrik anzuzeigen.",
+            "only_available_on_desktop": "Nur auf dem Desktop verfügbar.",
+            "clean_time": "Reinigungszeit",
+            "not_reaching_clean_time_goals": "Reinigungsziele werden nicht erreicht",
+            "total_clean_time": "Gesamte Reinigungszeit",
+            "battery": "Batterie",
+            "replacement_needed": "Austausch erforderlich",
+            "location": "Standort",
+            "relocation_alerts": "Umzugswarnungen",
+            "fleet_technology": "Flottentechnologie",
+            "fleet_technology_type": {
+                "LITE": "Lite",
+                "GEN_1": "Gen 1",
+                "GEN_2": "Gen 2",
+                "UNKNOWN": "Unbekannt"
+            },
+            "unit": {
+                "hours": "Stunden",
+                "machines": "Maschinen"
+            },
+            "charging_behavior": "Ladeverhalten",
+            "charging_behavior_type": {
+                "complete": "Vollständig",
+                "incomplete": "Unvollständig",
+                "no_charge": "Keine Ladung"
+            },
+            "charging_behavior_no_data": "Keine verfügbaren Daten",
+            "incomplete_charge": "Unvollständige Ladung",
+            "open_requests": "Offene Anfragen",
+            "total_open_requests": "Gesamtanzahl offener Anfragen",
+            "total": "Gesamt",
+            "created": "Erstellt",
+            "completed": "Abgeschlossen",
+            "trend_value:": "Trendwert",
+            "role": {
+                "Super_Admin": "Super Administrator",
+                "Internal_Admin": "Interner Administrator",
+                "Internal_Support": "Interner Support",
+                "Internal_Dev": "Interner Entwickler",
+                "Customer_Admin": "Kundenadministrator",
+                "Customer": "Kunde"
+            },
+            "low_usage_reported": "Geringe Nutzung gemeldet",
+            "impact_activity": "Auswirkende Aktivität",
+            "non_reporting_fleet": "Nicht meldende Flotte"
+        }
+    }
+}

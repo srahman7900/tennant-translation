@@ -1,0 +1,19 @@
+{
+    "pages": {
+        "faq": {
+            "questions_not_found": "AUCUNE QUESTION PERTINENTE TROUVÉE",
+            "search_for_topic": "Rechercher un sujet"
+        },
+        "release_note": {
+            "questions_not_found": "AUCUNE CORRESPONDANCE POUR VOTRE RECHERCHE",
+            "search_for_topic": "Rechercher un sujet",
+            "whats_new": "Quoi de neuf"
+        },
+        "notification": {
+            "tabs": {
+                "faq": "FAQ",
+                "whats_new": "Quoi de neuf"
+            }
+        }
+    }
+}

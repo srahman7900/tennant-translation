@@ -1,0 +1,19 @@
+{
+    "pages": {
+        "faq": {
+            "questions_not_found": "NESSUNA DOMANDA PERTINENTE TROVATA",
+            "search_for_topic": "Cerca argomento"
+        },
+        "release_note": {
+            "questions_not_found": "NESSUNA CORRISPONDENZA PER LA TUA RICERCA",
+            "search_for_topic": "Cerca argomento",
+            "whats_new": "Cosa c'è di nuovo"
+        },
+        "notification": {
+            "tabs": {
+                "faq": "Domande frequenti",
+                "whats_new": "Cosa c'è di nuovo"
+            }
+        }
+    }
+}

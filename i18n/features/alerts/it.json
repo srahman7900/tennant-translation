@@ -1,0 +1,47 @@
+{
+    "pages": {
+        "alerts": {
+            "title": "AVVISI",
+            "disclaimer": "Gli avvisi devono essere abilitati dalla scheda Configurazione per essere visualizzati qui.",
+            "summaries": {
+                "impacts": "Impatti",
+                "no_usage": "Nessun utilizzo",
+                "no_connectivity": "Nessuna connessione",
+                "incomplete_charges": "Addebiti incompleti",
+                "relocation": "Trasferimento"
+            },
+            "status": {
+                "title": "Stato",
+                "active": "Attivo",
+                "inactive": "Cancellato"
+            },
+            "operator_id": "ID operatore",
+            "technician_id": "Identificativo del tecnico",
+            "date": "Data",
+            "time": "Tempo",
+            "site": "Sito",
+            "region": "Regione",
+            "current_location": "Posizione attuale",
+            "home_location": "Posizione della casa",
+            "possible_fixes": "Possibili Soluzioni",
+            "possible_reasons": "Possibili Ragioni",
+            "prioritized_fixes": "Correzioni prioritarie",
+            "prioritized_reasons": "Ragioni prioritarie",
+            "miles": "miglia",
+            "km": "km",
+            "months": "mesi",
+            "minutes": "Minuti",
+            "created": "CREATO",
+            "critical": "CRITICA",
+            "warning": "AVVERTIMENTO",
+            "completed": "COMPLETATO",
+            "cleared": "ELIMINATO",
+            "date_reported": "Data segnalata",
+            "date_completed": "Data completata",
+            "tabs": {
+                "details": "Dettagli avviso",
+                "manual": "Manuale"
+            }
+        }
+    }
+}

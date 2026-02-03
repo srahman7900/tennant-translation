@@ -1,0 +1,229 @@
+{
+    "device_errors_definitions": {
+        "0xfff0": {
+            "title": "E-Stop Active Fault",
+            "description": "E-Stop Active Fault",
+            "possible_reasons": [
+                "E-Stop pressed.",
+                "Large white iDrive connector unplugged.",
+                "Large white iDrive connector pin 7 disconnected.",
+                "iDrive power wire unplugged.",
+                "Scrub Controller board connector J9 pin 2 disconnected.",
+                "Scrub Controller board connector J8 unplugged.",
+                "Scrub Controller board connector J8 pin 7 disconnected."
+            ],
+            "possible_actions": [
+                "Key off machine.",
+                "Press and reset E-Stop button.",
+                "Key on machine.",
+                "If fault persists, check harness connections between Estop and control module.",
+                "Replace or repair harness.",
+                "Replace E-STOP."
+            ]
+        },
+        "0x0501": {
+            "title": "Vacuum Motor Open Warning",
+            "description": "Vacuum Motor Open Fault",
+            "possible_reasons": [
+                "Wiring, connector or control board issue on the vacuum.",
+                "J10 connector on Scrub Controller board unplugged.",
+                "Scrub Controller board power disconnected.",
+                "Scrub Controller inline power fuse defective/blown."
+            ],
+            "possible_actions": [
+                "Needs repair. Check connections. Board gets power from key switch and battery."
+            ]
+        },
+        "0x0712": {
+            "title": "EC-H2O Pump Breaker Tripped Warning",
+            "description": "EC-H20 pump breaker Fault",
+            "possible_reasons": [
+                "Detected module circuit breaker trip.",
+                "Scrub Controller board J4 connector unplugged.",
+                "Scrub Controller board J4 connector pin 1 disconnected."
+            ],
+            "possible_actions": [
+                "Power cycle machine. Check connections. If warning persists, contact service."
+            ]
+        },
+        "0x8001": {
+            "title": "Scrubbing feature disabled remotely",
+            "description": "Scrubbing feature disabled remotely",
+            "possible_reasons": [
+                "Scrubbing feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "0x8002": {
+            "title": "ABW feature disabled remotely",
+            "description": "ABW feature disabled remotely",
+            "possible_reasons": [
+                "ABW feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "00": {
+            "title": "Errore del caricatore",
+            "description": "Si attiva se viene segnalato un errore del caricatore.",
+            "possible_reasons": [
+                "Il caricabatterie non funziona correttamente"
+            ],
+            "possible_actions": [
+                "Scollega il caricabatterie e ricollegalo per riavviarlo. Sostituisci il caricabatterie."
+            ]
+        },
+        "nocharge": {
+            "title": "Nessun addebito",
+            "description": "Si attiva se la macchina ha segnalato l'utilizzo ma la batteria non è stata caricata in quel giorno di calendario.",
+            "possible_reasons": [
+                "La macchina è stata utilizzata ma non caricata lo stesso giorno."
+            ],
+            "possible_actions": [
+                "Assicurarsi di caricare la macchina dopo l'uso alla fine di un turno."
+            ]
+        },
+        "lowusage": {
+            "title": "Basso utilizzo",
+            "description": "Si attiva se la macchina viene utilizzata meno del numero di ore selezionato dall'utente (il valore predefinito è 0 ore).",
+            "possible_reasons": [
+                "La macchina è stata utilizzata meno del numero di ore selezionato dall'utente."
+            ],
+            "possible_actions": [
+                "Modificare (diminuire) le ore selezionate in modo che siano inferiori al tempo di utilizzo medio dalla configurazione."
+            ]
+        },
+        "relocation": {
+            "title": "Macchina trasferita",
+            "description": "Si attiva se la macchina ha segnalato una posizione che si trova al di fuori del raggio impostato della sua posizione di casa. Questo raggio può essere impostato dall'utente nella pagina di configurazione.",
+            "possible_reasons": [
+                "La macchina è stata spostata al di fuori del suo raggio di casa."
+            ],
+            "possible_actions": [
+                "Portare la macchina entro il raggio di casa. Aumentare la distanza del raggio consentito."
+            ]
+        },
+        "opportunitycharge": {
+            "title": "Carica di opportunità",
+            "description": "La macchina ha segnalato che la batteria è stata collegata per la ricarica ma non per il completamento.",
+            "possible_reasons": [
+                "La macchina ha ricevuto un addebito parziale."
+            ],
+            "possible_actions": [
+                "Assicurarsi di caricare completamente la macchina prima di scollegarla. La carica parziale di una batteria al piombo può ridurre la durata della batteria."
+            ]
+        },
+        "impactdetected": {
+            "description": "Si attiva se la macchina rileva un impatto sostanziale. Controllare la macchina per possibili danni."
+        },
+        "nocommunication": {
+            "title": "Nessuna comunicazione",
+            "description": "Attivato se una macchina non ha comunicato con il portale per il periodo selezionato.",
+            "possible_reasons": [
+                "Scarsa copertura cellulare.",
+                "Batteria se completamente scarica.",
+                "Antenna o componente hardware danneggiato."
+            ],
+            "possible_actions": [
+                "Spostare la macchina in una posizione diversa con una migliore copertura cellulare.",
+                "Caricare la batteria.",
+                "Chiamare l'assistenza per la sostituzione dei componenti."
+            ]
+        },
+        "noserviceperformed": {
+            "title": "Nessun servizio eseguito",
+            "description": "Attivato se una macchina non è stata riparata nel periodo selezionato.",
+            "possible_reasons": [
+                "Service has not been performed on the machine in the selected period."
+            ],
+            "possible_actions": [
+                "Contattare Tennant per eseguire il servizio.",
+                "Regolare l'intervallo di tempo prima che sia necessario eseguire la manutenzione."
+            ]
+        },
+        "servicerequest": {
+            "description": "Attivato se una richiesta di servizio è stata creata o completata. Una richiesta di servizio può essere creata dal sistema IRIS."
+        },
+        "automaticbatterywatering": {
+            "title": "SERBATOIO ABW VUOTO",
+            "description": "Attivato quando il serbatoio di irrigazione automatica della batteria (ABW) deve essere riempito con acqua distillata.",
+            "possible_reasons": [
+                "Il serbatoio di irrigazione della batteria è vuoto.",
+                "La macchina ha continuato a funzionare con il guasto del serbatoio di irrigazione della batteria vuoto attivo (0x0B06)."
+            ],
+            "possible_actions": [
+                "Riempire il serbatoio di irrigazione della batteria con acqua distillata, quindi eseguire un ciclo chiave della macchina."
+            ]
+        },
+        "maintenancereminder": {
+            "title": "MAINTENANCE REMINDER",
+            "description": "Si attiva se una macchina raggiunge una soglia di ore di pulizia.",
+            "possible_reasons": {
+                "T600E": [
+                    "Le lame del tergipavimento devono essere ispezionate per individuare eventuali danni e una corretta deflessione",
+                    "Le rotelle del tergipavimento devono essere ispezionate per eventuali danni",
+                    "Il tubo di aspirazione deve essere ispezionato per eventuali intasamenti o danni",
+                    "La linea di flusso della soluzione e il filtro devono essere ispezionati per individuare eventuali ostruzioni e danni",
+                    "Il tubo di scarico del serbatoio di recupero deve essere ispezionato per eventuali ostruzioni o danni",
+                    "I cuscinetti o il gruppo spazzole devono essere ispezionati per verificare eventuali segni di usura",
+                    "La guarnizione del coperchio del serbatoio di recupero deve essere ispezionata per eventuali danni",
+                    "Il vassoio dei detriti deve essere ispezionato per eventuali intasamenti o danni",
+                    "Il serbatoio del raccogligocce del gruppo tergipavimento deve essere ispezionato per eventuali intasamenti"
+                ],
+                "X4ROVR": [
+                    "Le pastiglie o il gruppo spazzole devono essere ispezionati per usura e deterioramento",
+                    "Le lame del tergivetro laterale e posteriore devono essere ispezionate per danni e corretta deflessione",
+                    "I sensori 2D e 3D anteriori/laterali e i sensori LIDAR superiori/inferiori devono essere ispezionati per danni e sporcizia",
+                    "Le protezioni perimetrali sinistra, destra e anteriore devono essere ispezionate per danni, detriti e usura",
+                    "Il tubo di scarico del serbatoio di recupero deve essere ispezionato per ostruzioni o danni",
+                    "La guarnizione del coperchio del serbatoio di recupero deve essere ispezionata per danni",
+                    "Il vassoio per detriti deve essere ispezionato per ostruzioni o danni",
+                    "La linea di flusso della soluzione e il filtro devono essere ispezionati per ostruzioni e danni",
+                    "Il tubo di aspirazione deve essere ispezionato per ostruzioni o danni"
+                ]
+            },
+            "possible_actions": {
+                "T600E": [
+                    "Ciascuna lama del tergipavimento è dotata di quattro bordi di pulizia. Ruotare le lame su un bordo non utilizzato. Se tutti e quattro i bordi sono usurati, sostituire le lame del tergipavimento. Controllare la deflessione della lama del tergipavimento rispetto al pavimento. La lama posteriore dovrebbe deviarsi uniformemente su tutta la lunghezza del tergipavimento a 45 gradi",
+                    "Lubrificare le ruote posteriori. Se usurate, sostituire le ruote posteriori",
+                    "Tubo di aspirazione per lavaggio. Controllare eventuali danni e sostituire se danneggiati",
+                    "Scaricare e sciacquare il serbatoio della soluzione. Rimuovere e pulire il filtro del serbatoio della soluzione",
+                    "Controllare il filtro della soluzione per eventuali danni e sostituirlo se danneggiato",
+                    "Pulire e sciacquare il tubo di scarico di recupero. Controllare eventuali danni e sostituire se danneggiati",
+                    "Sostituire i cuscinetti o il gruppo spazzola se usurati o danneggiati",
+                    "Serbatoio di recupero a livello. Rimuovere e pulire lo schermo di intercettazione del galleggiante",
+                    "Pulire la guarnizione del coperchio del serbatoio di recupero. Sostituirlo se danneggiato",
+                    "Rimuovere e pulire il vassoio dei rifiuti. Sostituirlo se danneggiato",
+                    "Rimuovere il coperchio del sifone dal gruppo del tergipavimento e pulire il serbatoio"
+                ],
+                "X4ROVR": [
+                    "Sostituire i cuscinetti o l'assemblaggio della spazzola se usurati o danneggiati",
+                    "Ogni lama del tergivetro posteriore ha due bordi di pulizia. Ruota le lame verso un bordo inutilizzato. Se tutti i bordi sono usurati, sostituire le lame del tergivetro. Ogni lama laterale del tergivetro ha quattro bordi di pulizia. Ruota le lame verso un bordo inutilizzato. Una volta che entrambi i bordi sono usurati, scambia le lame del tergivetro da un lato della macchina all'altro per utilizzare i bordi opposti. Sostituire le lame quando tutti i bordi sono usurati. Controllare la deflessione della lama del tergivetro sul pavimento",
+                    "Controllare per danni al sensore. Pulire con il panno in microfibra fornito. Sostituire se danneggiato",
+                    "Sostituire gli assemblaggi delle setole perimetrali danneggiati e/o usurati. Ispezionare le piastre di regolazione per slittamento. Regolare secondo necessità",
+                    "Scaricare il serbatoio di recupero. Rimuovere e pulire il filtro di arresto del galleggiante. Pulire e sciacquare il tubo di scarico del recupero. Controllare per danni e sostituire se danneggiato",
+                    "Pulire la guarnizione del coperchio del serbatoio di recupero. Sostituire se danneggiata",
+                    "Rimuovere e pulire il vassoio dei detriti. Sostituire se danneggiato",
+                    "Svuotare e risciacquare il serbatoio della soluzione. Rimuovere e pulire il filtro del serbatoio della soluzione. Controllare il filtro della soluzione per danni e sostituire se danneggiato",
+                    "Svuotare il tubo dell'aspirazione. Controllare per danni e sostituire se danneggiato"
+                ]
+            }
+        },
+        "notreachingcleantimegoals": {
+            "title": "Non raggiungere gli obiettivi di Clean Time",
+            "description": "Si attiva se la macchina viene utilizzata per un tempo inferiore a quello previsto dall'obiettivo di tempo di pulizia.",
+            "possible_reasons": [
+                "La macchina è stata utilizzata per un tempo inferiore a quello impostato nella pagina di configurazione.",
+                "L'obiettivo di tempo di pulizia previsto potrebbe essere troppo elevato rispetto ai modelli di utilizzo effettivi.",
+                "L'utilizzo potrebbe essere stato compromesso da periodi di inattività, manutenzione o festività."
+            ],
+            "possible_actions": [
+                "Regola (diminuisci) l'obiettivo di tempo di pulizia giornaliero previsto per adattarlo meglio all'utilizzo medio della macchina.",
+                "Esaminare le pianificazioni delle macchine e assicurarsi che siano in linea con gli obiettivi di utilizzo previsti."
+            ]
+        }
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "device_errors_definitions": {
+        "0xfff0": {
+            "title": "E-Stop Active Fault",
+            "description": "E-Stop Active Fault",
+            "possible_reasons": [
+                "E-Stop pressed.",
+                "Large white iDrive connector unplugged.",
+                "Large white iDrive connector pin 7 disconnected.",
+                "iDrive power wire unplugged.",
+                "Scrub Controller board connector J9 pin 2 disconnected.",
+                "Scrub Controller board connector J8 unplugged.",
+                "Scrub Controller board connector J8 pin 7 disconnected."
+            ],
+            "possible_actions": [
+                "Key off machine.",
+                "Press and reset E-Stop button.",
+                "Key on machine.",
+                "If fault persists, check harness connections between Estop and control module.",
+                "Replace or repair harness.",
+                "Replace E-STOP."
+            ]
+        },
+        "0x0501": {
+            "title": "Vacuum Motor Open Warning",
+            "description": "Vacuum Motor Open Fault",
+            "possible_reasons": [
+                "Wiring, connector or control board issue on the vacuum.",
+                "J10 connector on Scrub Controller board unplugged.",
+                "Scrub Controller board power disconnected.",
+                "Scrub Controller inline power fuse defective/blown."
+            ],
+            "possible_actions": [
+                "Needs repair. Check connections. Board gets power from key switch and battery."
+            ]
+        },
+        "0x0712": {
+            "title": "EC-H2O Pump Breaker Tripped Warning",
+            "description": "EC-H20 pump breaker Fault",
+            "possible_reasons": [
+                "Detected module circuit breaker trip.",
+                "Scrub Controller board J4 connector unplugged.",
+                "Scrub Controller board J4 connector pin 1 disconnected."
+            ],
+            "possible_actions": [
+                "Power cycle machine. Check connections. If warning persists, contact service."
+            ]
+        },
+        "0x8001": {
+            "title": "Scrubbing feature disabled remotely",
+            "description": "Scrubbing feature disabled remotely",
+            "possible_reasons": [
+                "Scrubbing feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "0x8002": {
+            "title": "ABW feature disabled remotely",
+            "description": "ABW feature disabled remotely",
+            "possible_reasons": [
+                "ABW feature has been disabled remotely by Tennant Admin"
+            ],
+            "possible_actions": [
+                "Contact Tennant Admin"
+            ]
+        },
+        "00": {
+            "title": "Ladefehler",
+            "description": "Wird ausgelöst, wenn ein Ladefehler gemeldet wird.",
+            "possible_reasons": [
+                "Das Ladegerät funktioniert nicht richtig"
+            ],
+            "possible_actions": [
+                "Trennen Sie Ihr Ladegerät vom Stromnetz und schließen Sie es wieder an, um es neu zu starten. Ersetzen Sie Ihr Ladegerät."
+            ]
+        },
+        "nocharge": {
+            "title": "Kostenlos",
+            "description": "Wird ausgelöst, wenn das Gerät den Verbrauch gemeldet hat, der Akku jedoch an diesem Kalendertag nicht aufgeladen wurde.",
+            "possible_reasons": [
+                "Die Maschine wurde am selben Tag benutzt, aber nicht aufgeladen."
+            ],
+            "possible_actions": [
+                "Laden Sie die Maschine nach Gebrauch am Ende einer Schicht auf."
+            ]
+        },
+        "lowusage": {
+            "title": "Geringe Nutzung",
+            "description": "Wird ausgelöst, wenn das Gerät weniger als die vom Benutzer gewählte Anzahl von Stunden verwendet wird (standardmäßig 0 Stunden).",
+            "possible_reasons": [
+                "Die Maschine wurde weniger als die vom Benutzer gewählte Anzahl von Stunden verwendet."
+            ],
+            "possible_actions": [
+                "Ändern (verringern) Sie die ausgewählten Stunden so, dass sie unter Ihrer durchschnittlichen Nutzungsdauer im Setup liegen."
+            ]
+        },
+        "relocation": {
+            "title": "Umzug",
+            "description": "Wird ausgelöst, wenn das Gerät einen Standort gemeldet hat, der außerhalb des festgelegten Radius seines Heimatstandorts liegt. Dieser Radius kann vom Benutzer auf der Einrichtungsseite eingestellt werden.",
+            "possible_reasons": [
+                "Die Maschine wurde außerhalb ihres Heimatradius bewegt."
+            ],
+            "possible_actions": [
+                "Bringen Sie die Maschine in ihren Heimatradius. Erhöhen Sie den Abstand des zulässigen Radius."
+            ]
+        },
+        "opportunitycharge": {
+            "title": "Opportunitätsgebühr",
+            "description": "Das Gerät meldete, dass der Akku zum Laden eingesteckt war, jedoch nicht vollständig.",
+            "possible_reasons": [
+                "Die Maschine erhielt eine Teilladung."
+            ],
+            "possible_actions": [
+                "Laden Sie das Gerät unbedingt vollständig auf, bevor Sie den Netzstecker ziehen. Das teilweise Laden einer Blei-Säure-Batterie kann die Lebensdauer der Batterie verkürzen."
+            ]
+        },
+        "impactdetected": {
+            "description": "Wird ausgelöst, wenn die Maschine einen erheblichen Aufprall feststellt. Überprüfen Sie die Maschine auf mögliche Schäden."
+        },
+        "nocommunication": {
+            "title": "Keine Kommunikation",
+            "description": "Wird ausgelöst, wenn eine Maschine für den ausgewählten Zeitraum nicht mit dem Portal kommuniziert hat.",
+            "possible_reasons": [
+                "Schlechte Zellabdeckung.",
+                "Batterie, wenn vollständig entladen.",
+                "Antenne oder Hardwarekomponente beschädigt."
+            ],
+            "possible_actions": [
+                "Stellen Sie das Gerät an einen anderen Ort mit besserer Funkabdeckung.",
+                "Lade die Batterie auf.",
+                "Rufen Sie den Kundendienst für den Austausch von Komponenten an."
+            ]
+        },
+        "noserviceperformed": {
+            "title": "Kein Service erbracht",
+            "description": "Wird ausgelöst, wenn eine Maschine im ausgewählten Zeitraum nicht gewartet wurde.",
+            "possible_reasons": [
+                "Die Maschine wurde im ausgewählten Zeitraum nicht gewartet."
+            ],
+            "possible_actions": [
+                "Wenden Sie sich an Tennant, um den Service durchzuführen.",
+                "Passen Sie das Zeitintervall an, bevor eine Wartung durchgeführt werden muss."
+            ]
+        },
+        "servicerequest": {
+            "description": "Wird ausgelöst, wenn eine Serviceanfrage erstellt oder abgeschlossen wurde. Eine Serviceanfrage kann vom IRIS-System erstellt werden."
+        },
+        "automaticbatterywatering": {
+            "title": "ABW-TANK LEER",
+            "description": "Wird ausgelöst, wenn der Tank der automatischen Batteriebewässerung (ABW) mit destilliertem Wasser gefüllt werden muss.",
+            "possible_reasons": [
+                "Batterie-Bewässerungstank ist leer.",
+                "Die Maschine wurde weiterhin verwendet, wobei der Fehler „Akku-Bewässerungstank leer“ aktiv war (0x0B06)."
+            ],
+            "possible_actions": [
+                "Füllen Sie den Bewässerungstank der Batterie mit destilliertem Wasser und starten Sie dann die Maschine."
+            ]
+        },
+        "maintenancereminder": {
+            "title": "MAINTENANCE REMINDER",
+            "description": "Wird ausgelöst, wenn eine Maschine einen Schwellenwert an Reinigungsstunden erreicht.",
+            "possible_reasons": {
+                "T600E": [
+                    "Die Rakelblätter sollten auf Beschädigung und ordnungsgemäße Durchbiegung überprüft werden",
+                    "Saugfußrollen sollten auf Beschädigungen überprüft werden",
+                    "Der Vakuumschlauch sollte auf Verstopfungen oder Beschädigungen überprüft werden",
+                    "Die Lösungsflussleitung und der Filter sollten auf Verstopfungen und Schäden überprüft werden",
+                    "Der Ablaufschlauch des Schmutzwassertanks sollte auf Verstopfungen oder Beschädigungen überprüft werden",
+                    "Die Pads oder die Bürstenbaugruppe sollten auf Abnutzung überprüft werden",
+                    "Die Dichtung des Schmutzwassertankdeckels sollte auf Beschädigungen überprüft werden",
+                    "Die Schmutzwanne sollte auf Verstopfungen oder Beschädigungen überprüft werden",
+                    "Der Tropfenfängerbehälter der Saugleisteneinheit sollte auf Verstopfungen überprüft werden"
+                ],
+                "X4ROVR": [
+                    "Pads oder Bürstenbaugruppe sollten auf Abnutzung und Verschleiß überprüft werden",
+                    "Seiten- und hintere Abzieherblätter sollten auf Beschädigung und ordnungsgemäße Ablenkung überprüft werden",
+                    "Vordere/seitliche 2D- und 3D-Sensoren sowie obere/untere LIDAR-Sensoren sollten auf Beschädigung und Schmutz überprüft werden",
+                    "Linke, rechte und vordere Schutzleisten sollten auf Beschädigung, Schmutz und Abnutzung überprüft werden",
+                    "Ablaufschlauch des Auffangbehälters sollte auf Verstopfungen oder Beschädigungen überprüft werden",
+                    "Dichtung des Auffangbehälterdeckels sollte auf Beschädigung überprüft werden",
+                    "Schmutzbehälter sollte auf Verstopfungen oder Beschädigungen überprüft werden",
+                    "Lösungsschlauch und Filter sollten auf Verstopfungen und Beschädigungen überprüft werden",
+                    "Vakuumschlauch sollte auf Verstopfungen oder Beschädigungen überprüft werden"
+                ]
+            },
+            "possible_actions": {
+                "T600E": [
+                    "Jedes Rakelblatt verfügt über vier Wischkanten. Drehen Sie die Klingen zu einer unbenutzten Kante. Wenn alle vier Kanten abgenutzt sind, ersetzen Sie die Rakelblätter. Überprüfen Sie die Ablenkung des Saugfußblatts zum Boden. Die hintere Klinge sollte sich gleichmäßig über die gesamte Länge des Rakels im 45-Grad-Winkel ablenken",
+                    "Hintere Rollen schmieren. Wenn sie abgenutzt sind, ersetzen Sie die hinteren Rollen",
+                    "Vakuumschlauch spülen. Auf Schäden prüfen und ggf. austauschen",
+                    "Entleeren und spülen Sie den Frischwassertank aus. Entfernen und reinigen Sie den Filter des Lösungstanks",
+                    "Überprüfen Sie den Lösungsfilter auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist",
+                    "Reinigen und spülen Sie den Abwasserschlauch. Auf Schäden prüfen und ggf. austauschen",
+                    "Ersetzen Sie die Pads oder die Bürstenbaugruppe, wenn sie abgenutzt oder beschädigt sind",
+                    "Schmutzwassertank spülen. Entfernen und reinigen Sie das Schwimmer-Absperrsieb",
+                    "Reinigen Sie die Dichtung des Schmutzwassertankdeckels. Bei Beschädigung ersetzen",
+                    "Entfernen und reinigen Sie die Schmutzwanne. Bei Beschädigung ersetzen",
+                    "Entfernen Sie die Tropffallenabdeckung von der Saugleiste und reinigen Sie den Behälter"
+                ],
+                "X4ROVR": [
+                    "Pads oder Bürstenbaugruppe ersetzen, wenn abgenutzt oder beschädigt",
+                    "Jedes hintere Abzieherblatt hat zwei Wischkanten. Drehen Sie die Blätter zu einer unbenutzten Kante. Wenn alle Kanten abgenutzt sind, ersetzen Sie die Abzieherblätter. Jedes seitliche Abzieherblatt hat vier Wischkanten. Drehen Sie die Blätter zu einer unbenutzten Kante. Wenn beide Kanten abgenutzt sind, tauschen Sie die Abzieherblätter von einer Seite der Maschine zur anderen aus, um die gegenüberliegenden Kanten zu verwenden. Ersetzen Sie die Blätter, wenn alle Kanten abgenutzt sind. Überprüfen Sie die Abzieherblattablenkung zum Boden",
+                    "Überprüfen Sie die Sensoren auf Beschädigung. Reinigen Sie sie mit dem mitgelieferten Mikrofasertuch. Ersetzen Sie sie, wenn sie beschädigt sind",
+                    "Ersetzen Sie beschädigte und/oder abgenutzte Perimeterbürsteneinheiten. Überprüfen Sie die Einstellplatten auf Verrutschen. Stellen Sie sie bei Bedarf ein",
+                    "Spülen Sie den Auffangbehälter. Entfernen und reinigen Sie das Schwimmerventilsieb. Reinigen und spülen Sie den Ablaufschlauch des Auffangbehälters. Überprüfen Sie auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist",
+                    "Reinigen Sie die Dichtung des Auffangbehälterdeckels. Ersetzen Sie sie, wenn sie beschädigt ist",
+                    "Entfernen und reinigen Sie das Schmutzbehälter. Ersetzen Sie es, wenn es beschädigt ist",
+                    "Lassen Sie den Lösungstank ab und spülen Sie ihn aus. Entfernen und reinigen Sie den Filter des Lösungstanks. Überprüfen Sie den Lösungsfilter auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist",
+                    "Spülen Sie den Vakuumschlauch. Überprüfen Sie auf Beschädigungen und ersetzen Sie ihn, wenn er beschädigt ist"
+                ]
+            }
+        },
+        "notreachingcleantimegoals": {
+            "title": "Nichterreichen der Clean Time-Ziele",
+            "description": "Wird ausgelöst, wenn die Maschine weniger als das Reinigungszeitziel verwendet wird.",
+            "possible_reasons": [
+                "Die Maschine wurde weniger genutzt als das auf der Setup-Seite festgelegte Reinigungszeitziel.",
+                "Das erwartete Ziel für die Reinigungszeit ist im Vergleich zu den tatsächlichen Nutzungsmustern möglicherweise zu hoch.",
+                "Betriebsausfälle, Wartungsarbeiten oder Feiertage können die Nutzung beeinträchtigt haben."
+            ],
+            "possible_actions": [
+                "Passen Sie das erwartete tägliche Reinigungszeitziel an (verringern Sie es), damit es besser zur durchschnittlichen Nutzung Ihres Geräts passt.",
+                "Überprüfen Sie die Maschinenpläne und stellen Sie sicher, dass sie mit den erwarteten Nutzungszielen übereinstimmen."
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "pages": {
+        "faq": {
+            "questions_not_found": "NO SE ENCONTRARON PREGUNTAS RELEVANTES",
+            "search_for_topic": "Buscar tema"
+        },
+        "release_note": {
+            "questions_not_found": "NO HAY COINCIDENCIAS PARA TU BÚSQUEDA",
+            "search_for_topic": "Buscar tema",
+            "whats_new": "Qué hay de nuevo"
+        },
+        "notification": {
+            "tabs": {
+                "faq": "Preguntas frecuentes",
+                "whats_new": "Qué hay de nuevo"
+            }
+        }
+    }
+}

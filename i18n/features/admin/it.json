@@ -1,0 +1,144 @@
+{
+    "pages": {
+        "admin": {
+            "tabs": {
+                "machine_groups": "Gruppi di macchine",
+                "machine_attributes": "Attributi macchina",
+                "user_groups": "Gruppi di utenti",
+                "user_attributes": "Attributi utente",
+                "firmware": "Firmware",
+                "features": "Caratteristiche"
+            },
+            "select_machines": "Seleziona Macchine",
+            "select_users": "Seleziona utenti",
+            "selected_users": "Utenti selezionati",
+            "selected_machines": "Macchine selezionate",
+            "no_selected_machine": "Nessuna macchina selezionata",
+            "no_selected_users": "Nessun utente selezionato",
+            "no_selected_group": "Nessun gruppo selezionato",
+            "groups": "Gruppi",
+            "select_group": "Seleziona un gruppo",
+            "unsaved_changes": "Modifiche non salvate",
+            "comments_section": "Sezione commenti",
+            "multiple_values": "Valori multipli",
+            "group_was": "Il gruppo era",
+            "groups_were": "I gruppi erano",
+            "user_was": "L'utente era",
+            "users_were": "Gli utenti erano",
+            "machine_was": "La macchina era",
+            "machines_were": "Le macchine erano",
+            "state_was": "Lo stato era",
+            "created": "creato.",
+            "edited": "modificato.",
+            "deleted": "cancellato.",
+            "assigned": "assegnato.",
+            "removed": "rimosso.",
+            "changed": "cambiato.",
+            "canceled": "annullato.",
+            "successfully": "{{attribute}} con successo {{action}}",
+            "invalid_count": "Non è stato possibile elaborare la richiesta. Aumenta il numero massimo di dispositivi di {{email}}, in modo che l'utente possa essere assegnato.",
+            "machine_groups": {
+                "machine_group_modal": {
+                    "title": "Nome gruppo macchine"
+                },
+                "delete_machine_group_modal": {
+                    "title": "elimina per sempre"
+                }
+            },
+            "user_groups": {
+                "assign_machine_group": "Assegna gruppo macchine",
+                "assigned_machines_groups": "Gruppi di macchine assegnate",
+                "user_group_modal": {
+                    "title": "Nome gruppo utenti"
+                },
+                "tabs": {
+                    "add": "Inserisci",
+                    "remove": "Rimuovi"
+                }
+            },
+            "machine_attributes": {
+                "region": "Regione",
+                "site": "Sito",
+                "clientAssetId": "ID risorsa cliente",
+                "floorType": "Tipo di pavimento",
+                "sizeOfCleaningArea": "Dimensioni dell'area di pulizia",
+                "division": "Divisione",
+                "scrubType": "Tipo di lavaggio",
+                "vendor": "Venditore",
+                "tier": "Livello",
+                "customerRegion": "Regione del cliente",
+                "dailyCleanTimeGoalMins": "Obiettivo di tempo di pulizia giornaliero in minuti",
+                "pilot": "Pilota",
+                "district": "Distretto",
+                "serviceCode": "Codice di servizio",
+                "budgetScrubHours": "Ore di lavaggio a budget",
+                "assigned_machine_groups": "Gruppi di macchine assegnate",
+                "assign_machine_groups": "Gruppi di macchine da assegnare",
+                "remove_machine_groups": "Gruppi di macchine da rimuovere",
+                "no_assign_groups": "Nessun gruppo assegnato",
+                "no_common_groups": "Nessun gruppo comune è assegnato alle macchine selezionate",
+                "add_machine_group": "Aggiungi gruppo di macchine",
+                "machine_id_copied": "ID macchina copiato",
+                "tabs": {
+                    "add": "Inserisci",
+                    "remove": "Rimuovi",
+                    "edit_attributes": "Modifica attributi"
+                }
+            },
+            "user_attributes": {
+                "add_user_group": "Aggiungi a gruppo utenti",
+                "assigned_user_groups": "Gruppi di utenti assegnati",
+                "assigned_customer_admin_groups": "Gruppi di amministratori dei clienti assegnati",
+                "assign_user_groups": "Gruppi di utenti da assegnare",
+                "assign_customer_admin_groups": "Gruppi di amministratori clienti da assegnare",
+                "remove_user_groups": "Gruppi di utenti da rimuovere",
+                "remove_customer_admin_groups": "Gruppi di amministratori clienti da rimuovere",
+                "no_assign_groups": "Nessun gruppo assegnato",
+                "no_common_groups": "Nessun gruppo comune è assegnato agli utenti selezionati",
+                "max_device_count": "Numero massimo di dispositivi",
+                "selected_customers_message": "Se desideri modificare il numero massimo di dispositivi, rimuovi dalla selezione gli utenti con un ruolo cliente",
+                "change_role": "Cambia ruolo",
+                "tabs": {
+                    "add": "Inserisci",
+                    "remove": "Rimuovi",
+                    "edit": "Modificare"
+                }
+            },
+            "resolve_issue": {
+                "user_is_over_the_limit_message": "<strong>{{user}}</strong> ha raggiunto il limite di {{maxDeviceCount}} macchine. Ci sono <span>{{overTheLimitCount}} macchine</span> oltre il limite. Scegli una delle seguenti opzioni:",
+                "users_are_over_the_limit": "{{unresolvedUsersCount}} {{userString}} oltre il limite della macchina.",
+                "been_resolved": "{{unresolvedUsersCount}} {{userString}} è stato risolto.",
+                "remove_user_from_user_group": "Rimuovi utente dal gruppo utenti",
+                "remove_user_from_the_user_group": "Rimuovi utente dal gruppo utenti",
+                "remove_machine_group_from_user_group": "Rimuovi gruppo macchine dal gruppo utenti",
+                "contanct_superior_admin": "Contatta il tuo amministratore superiore per modificare il conteggio dei dispositivi",
+                "contact": "Contatto",
+                "user_has_machine_over_the_limit_message": "<strong>{{user}}</strong> ha <span>{{overTheLimitCount}} macchine</span> oltre il limite.",
+                "remove_machines_from_device_group": "Rimuovi macchine dal gruppo macchine",
+                "changes_to_the_whole_group_message": "Attenzione: facendo clic su Salva apporterai modifiche all'intero gruppo!",
+                "user_is": "l'utente è",
+                "users_are": "gli utenti sono",
+                "user_has": "l'utente ha",
+                "users_have": "utente ha"
+            },
+            "features": {
+                "modal_title": "{{featureType}} feature",
+                "modal_message": "Stai per <strong>{{action}}</strong> la {{featureType}} Feature. Vuoi applicare le modifiche?",
+                "scrubbing": "Scrubbing",
+                "sweeping": "Sweeping",
+                "burnishing": "Burnishing",
+                "logging": "Logging",
+                "abw": "ABW",
+                "on": "accendere",
+                "off": "disattivare",
+                "update_notice": "Tieni presente che l'aggiornamento delle funzionalità verrà applicato dopo un ciclo di chiavi"
+            }
+        },
+        "general": {
+            "title": "Tennant - Progetto Hercules",
+            "more": "Di Più",
+            "hour": "h",
+            "note": "Nota"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "service_efficiency": {
+            "service": "Service",
+            "provide_feedback": "Fournir une réponse",
+            "provided_feedback": "Commentaires fournis",
+            "provided_feedback_no_issue": "Il n'y a eu aucun incident",
+            "feedback_form": "Formulaire de commentaires",
+            "prioritized_reasons": "Motifs prioritaires",
+            "prioritized_fixes": "Correctifs prioritaires",
+            "suggested_parts": "Suggested Parts",
+            "parts_used": "Pièces utilisées",
+            "check_all_that_apply": "*Cochez toutes les cases",
+            "other": "Autre",
+            "select_Incident_status": "Sélectionnez l'état de l'incident",
+            "one_reason_and_one_fix": "Vous devez choisir une raison et corriger l'incident afin de le résoudre. Vos commentaires sont essentiels, ils sont utilisés pour améliorer continuellement les recommandations.",
+            "successfully_recorded": "Les commentaires ont été enregistrés avec succès.",
+            "successfully_received": "L'incident a été reçu avec succès.",
+            "failed_to_load_incident": "Échec du chargement de l'incident.",
+            "failed_to_create_feedback": "Échec de l'enregistrement des commentaires.",
+            "work_center_id": "Identifiant du poste de travail",
+            "operator_id": "Identifiant de l'opérateur",
+            "show_history": "Afficher l'historique des incidents",
+            "hide_history": "Masquer l'historique des incidents",
+            "reason_for_Incident": "Raison de l'incident",
+            "chosen_fixes": "Corrections choisies",
+            "used_parts": "Pièces d'occasion",
+            "selected_reason": "Motif sélectionné",
+            "select_possible_reason": "Sélectionnez la raison prioritaire",
+            "choose_possible_fix": "Choisissez un correctif prioritaire",
+            "classification": "Classification",
+            "already_received": "Déjà reçu",
+            "reject_incident": "Rechazar incidente",
+            "incident_notification": "Notification d'incident",
+            "time_occurred": "L'heure s'est produite",
+            "date_occurred": "Date d'apparition",
+            "prediction_confidence": "Confiance des prévisions",
+            "remote": "Télécommande",
+            "telefix": "Téléfix",
+            "onSite": "Sur site",
+            "none": "Aucun",
+            "quantity": "Quantité",
+            "email_coped": "E-mail copié",
+            "notification_statuses": {
+                "canceled": "Annulé",
+                "fixed": "Fixé",
+                "no_issue": "Pas de problème",
+                "not_viewed": "Non consulté",
+                "received": "a reçu",
+                "system": "Système"
+            },
+            "classification_options": {
+                "WARNING": "Avertissement",
+                "CRITICAL": "Critique",
+                "MAINTENANCE": "Entretien"
+            },
+            "prediction_confidence_levels": {
+                "HIGH": "Haut",
+                "MEDIUM": "Moyen"
+            },
+            "tabs": {
+                "incident_details": "Détails de l'incident",
+                "history": "Histoire",
+                "manual": "Manuel"
+            }
+        },
+        "service_history": {
+            "table_title": "Historique d'entretien",
+            "contract_type": "Type de contrat",
+            "contract_expires": "Le contrat expire",
+            "warranty_expires": "La garantie expire",
+            "request_id": "Identifiant de la demande",
+            "tabs": {
+                "tasks": "Tâches",
+                "parts": "les pièces"
+            }
+        },
+        "maintenance": {
+            "under_maintenance": "La maintenance du portail est actuellement en cours. Le portail IRIS ne sera pas disponible tant que la maintenance ne sera pas terminée le 1/30. Merci de votre compréhension alors que nous continuons à améliorer le système."
+        }
+    }
+}

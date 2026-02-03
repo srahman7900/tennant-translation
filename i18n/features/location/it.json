@@ -1,0 +1,11 @@
+{
+    "pages": {
+        "location": {
+            "map": {
+                "ScrollZoomBlocker.CtrlMessage": "Usa ctrl + scroll per ingrandire la mappa",
+                "ScrollZoomBlocker.CmdMessage": "Usa ⌘ + scroll per ingrandire la mappa",
+                "TouchPanBlocker.Message": "Usa due dita per spostare la mappa"
+            }
+        }
+    }
+}

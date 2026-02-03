@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "login": {
+            "subtitle": "Appuyez sur Connexion avec mon compte pour continuer",
+            "subtitle_internal": "Appuyez sur Connexion avec ADB2C pour continuer",
+            "instructions": "Vous serez redirigé vers une page intermédiaire pour vous connecter. Veuillez utiliser vos identifiants de connexion à votre compte MyTennant. La page de connexion, ainsi que le nouveau portail, sont en cours de construction, alors veuillez pardonner l'apparence.",
+            "internal_instructions": "Appuyez sur la connexion pour continuer. Vous serez redirigé vers une page intermédiaire pour vous connecter. Veuillez utiliser vos identifiants de connexion ADB2C. La page de connexion, ainsi que le nouveau portail, sont en cours de construction, alors veuillez pardonner l'apparence.",
+            "time_zone": "Fuseau horaire",
+            "time_zone_subheader": "Pour continuer et utiliser le portail, vous devez sélectionner un fuseau horaire."
+        }
+    }
+}

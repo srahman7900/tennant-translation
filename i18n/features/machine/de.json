@@ -1,0 +1,102 @@
+{
+    "pages": {
+        "machine": {
+            "feature": "Machine Features",
+            "updates": "Machine Updates",
+            "scrubbing-feature": "Scrubbing Feature",
+            "sweeping-feature": "Sweeping Feature",
+            "burnish-feature": "Burnishing",
+            "auto-battery-watering": "ABW",
+            "logging": "Machine Logging",
+            "avg_hours_per_day": "Durchschn. Stunden pro Tag",
+            "total_run_time": "Gesamtlaufzeit",
+            "total_clean_time": "Gesamtreinigungszeit",
+            "avg_clean_hours_per_day": "Durchschn. Saubere Stunden pro Tag",
+            "runtime_graph_title": "Stunden",
+            "runtime_graph_machines_title": "Maschinen",
+            "runtime_graph_reporting_title": "Berichterstattung",
+            "runtime_graph_hrs_title": "Std",
+            "runtime_graph_avg_hours": "Durchschnittliche Stunden",
+            "software_version": "Softwareversion",
+            "production_date": "Produktionsdatum",
+            "last_service_performed": "Letzter Service durchgeführt",
+            "view_less": "Ansicht weniger",
+            "view_more": "Mehr sehen",
+            "logs": {
+                "logs_title_singular": "Protokoll",
+                "logs_title_plural": "Protokolle",
+                "log_suffix": "Maschinenprotokoll",
+                "refresh_title": "Bitte warten Sie, während das Protokoll erstellt wird. Das System prüft automatisch, ob die Protokolle bereit sind",
+                "error": "<strong>Ein Fehler ist aufgetreten.</strong> Bitte versuchen Sie es später noch einmal.",
+                "view_logs": "Protokolle anzeigen",
+                "previously_machine_log": "Maschinenprotokolle für das ausgewählte Datum wurden zuvor angezeigt.",
+                "new_machine_log": "Neues Maschinenprotokoll erzwingen",
+                "previous_download": "Vorherigen Download anzeigen"
+            },
+            "manual_sync": {
+                "left_uploads": "{{value}} {{uploadString}} für diesen Monat verlassen",
+                "zero_uploads": "0 Anfragen übrig. Sie können nächsten Monat einen weiteren Upload durchführen",
+                "wait_while_hours_sync": "Das System prüft automatisch, ob der Upload fertig ist ",
+                "successfully_sunced": "Stunden erfolgreich synchronisiert",
+                "manual_sync": "Manuelle Synchronisierung",
+                "upload": "hochladen",
+                "uploads": "hochladen",
+                "last_synced": "Zuletzt synchronisiert",
+                "device_not_connected": "Gerät ist nicht verbunden",
+                "sync_command_running": "Der Befehl „Stunden synchronisieren“ wird ausgeführt"
+            },
+            "battery_level": "Akkustand des Trackers",
+            "hour_meter": {
+                "label": "Betriebsstundenzähler",
+                "current_hour_meter": "Aktueller Stundenzähler: {{value}} Std",
+                "manage": "Verwalten"
+            },
+            "invalid_machineId": "Sie haben keinen Zugriff auf {{machineId}}"
+        },
+        "audit_hour_meter": {
+            "title": "Stundenzähler prüfen",
+            "current_hour_meter": "Aktueller Stundenmeter:",
+            "type_in_hour_meter": "Stundenmeter eingeben",
+            "hour_meter_required": "Stundenmeter darf nicht leer sein.",
+            "hour_meter_min": "Nur positive Zahlen sind erlaubt.",
+            "hour_meter_max": "Der Wert des Stundenmeters darf 8 Stellen nicht überschreiten.",
+            "hour_meter_decimal_places": "Es sind nur bis zu zwei Dezimalstellen erlaubt.",
+            "notes": "Notizen",
+            "notes_required": "Notizen dürfen nicht leer sein.",
+            "notes_limit": "Zeichenlimit überschritten. Maximal erlaubt: 250 Zeichen.",
+            "notes_leading_space": "Keine führenden oder nachfolgenden Leerzeichen erlaubt."
+        },
+        "machine-usage": {
+            "title": "Maschinennutzung",
+            "totals": "Total",
+            "scrub": "Schrubben",
+            "propel": "Antrieb",
+            "charge_complete_incomplete": "Ladung unvollständig / abgeschlossen",
+            "charge_error": "Ladefehler",
+            "ec-h2o": "ec-H2O",
+            "incomplete_charge": "Unvollständige Ladung",
+            "complete_charge": "Komplette Ladung",
+            "days": "Tage",
+            "day": "Tag",
+            "have_to_select_time_period": "Sie müssen den Zeitraum für die Maschinennutzung auswählen.",
+            "filter_up_to": "Sie können jeweils nur bis zu 31 Tage filtern",
+            "no_results": "Für den ausgewählten Zeitraum liegen keine Ergebnisse vor.",
+            "no_data": "Keine Daten",
+            "supports_total_only": "Unterstützt nur Total",
+            "supports_clean_time_only": "Unterstützt nur die Reinigungszeit",
+            "clean": "Reinigen",
+            "impact": "Auswirkung",
+            "site": "Standort",
+            "region": "Region"
+        },
+        "usage": {
+            "machine_usage": "Maschinennutzung",
+            "hours": "Stunden",
+            "run": "Lauf",
+            "charge": "Aufladen"
+        },
+        "runtime": {
+            "title": "LAUFZEIT"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "pages": {
+        "login": {
+            "subtitle": "Premi su Accedi con il mio account per continuare",
+            "subtitle_internal": "Premere su Accedi con ADB2C per continuare",
+            "signin_button": "SIGN IN",
+            "is_new_user": "New User?",
+            "register_now": "Register now",
+            "forgot_password": "Forgot your sign in information?",
+            "note": "NOTE: If you see a warning message after \"Sign in\" Just click \"Continue\" or \"Send\" to proceed",
+            "instructions": "Verrai reindirizzato a una pagina intermedia per accedere. Utilizza le credenziali di accesso del tuo account MyTennant. La pagina di accesso, così come il nuovo portale, sono in fase di costruzione, quindi scusate l'aspetto.",
+            "internal_instructions": "Premi su login per continuare. Verrai reindirizzato a una pagina intermedia per effettuare il login. Utilizza le tue credenziali di accesso ADB2C. La pagina di accesso, così come il nuovo portale, sono in fase di costruzione, quindi scusate l'aspetto.",
+            "time_zone": "Fuso orario",
+            "time_zone_subheader": "Per procedere oltre e utilizzare il portale, è necessario selezionare un fuso orario."
+        }
+    }
+}

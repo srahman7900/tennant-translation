@@ -1,0 +1,11 @@
+{
+    "pages": {
+        "location": {
+            "map": {
+                "ScrollZoomBlocker.CtrlMessage": "Utilice Ctrl + desplazamiento para hacer zoom en el mapa",
+                "ScrollZoomBlocker.CmdMessage": "Utilice ⌘ + desplazamiento para hacer zoom en el mapa",
+                "TouchPanBlocker.Message": "Utilice dos dedos para mover el mapa"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "pages": {
+        "alerts": {
+            "title": "ALERTES",
+            "disclaimer": "Les alertes doivent être activées à partir de l'onglet Configuration pour être affichées ici.",
+            "summaries": {
+                "impacts": "Les impacts",
+                "no_usage": "Pas d'utilisation",
+                "no_connectivity": "Pas de connectivité",
+                "incomplete_charges": "Charges incomplètes",
+                "relocation": "Déménagement"
+            },
+            "status": {
+                "title": "Statut",
+                "active": "Actif",
+                "inactive": "Effacé"
+            },
+            "operator_id": "ID opérateur",
+            "technician_id": "Numéro d'identification du technicien",
+            "date": "Date",
+            "time": "Temps",
+            "site": "Placer",
+            "region": "Région",
+            "current_location": "Localisation actuelle",
+            "home_location": "Emplacement d'origine",
+            "possible_fixes": "Correctifs Possibles",
+            "possible_reasons": "Raisons Possibles",
+            "prioritized_fixes": "Correctifs prioritaires",
+            "prioritized_reasons": "Raisons prioritaires",
+            "miles": "milles",
+            "km": "km",
+            "months": "mois",
+            "minutes": "Minutes",
+            "created": "CRÉÉ",
+            "critical": "CRITIQUE",
+            "warning": "AVERTISSEMENT",
+            "completed": "COMPLÉTÉ",
+            "cleared": "AUTORISÉ",
+            "date_reported": "Date de signalement",
+            "date_completed": "Rendez-vous complet",
+            "tabs": {
+                "details": "Détails de l'alerte",
+                "manual": "Manuel"
+            }
+        }
+    }
+}

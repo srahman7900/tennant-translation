@@ -1,0 +1,82 @@
+{
+    "pages": {
+        "service_efficiency": {
+            "service": "Servizio",
+            "provide_feedback": "Fornire un feedback",
+            "provided_feedback": "Feedback fornito",
+            "provided_feedback_no_issue": "Non c'è stato nessun incidente",
+            "feedback_form": "Modulo di feedback",
+            "prioritized_reasons": "Motivi prioritari",
+            "prioritized_fixes": "Correzioni prioritarie",
+            "suggested_parts": "Suggested Parts",
+            "parts_used": "Parti usate",
+            "check_all_that_apply": "*Controlla tutte le applicazioni",
+            "other": "Altro",
+            "select_Incident_status": "Seleziona lo stato dell'incidente",
+            "one_reason_and_one_fix": "È necessario scegliere un motivo e correggere l'incidente per risolverlo. Il tuo feedback è fondamentale, viene utilizzato per migliorare continuamente i consigli.",
+            "successfully_recorded": "Il feedback è stato registrato con successo.",
+            "successfully_received": "L'incidente è stato ricevuto con successo.",
+            "failed_to_load_incident": "Impossibile caricare l'incidente.",
+            "failed_to_create_feedback": "Impossibile registrare il feedback.",
+            "work_center_id": "ID centro di lavoro",
+            "operator_id": "ID operatore",
+            "show_history": "Mostra cronologia incidenti",
+            "hide_history": "Nascondi cronologia incidenti",
+            "reason_for_Incident": "Motivo dell'incidente",
+            "chosen_fixes": "Chosen Fixes",
+            "used_parts": "Parti usate",
+            "selected_reason": "Motivo selezionato",
+            "select_possible_reason": "Seleziona motivo prioritario",
+            "choose_possible_fix": "Scegli correzione prioritaria",
+            "classification": "Classificazione",
+            "already_received": "Già ricevuto",
+            "reject_incident": "Rifiuta l'incidente",
+            "incident_notification": "Notifica dell'incidente",
+            "time_occurred": "Il tempo si è verificato",
+            "date_occurred": "Data verificata",
+            "prediction_confidence": "Fiducia nella previsione",
+            "remote": "A distanza",
+            "telefix": "Telefisso",
+            "onSite": "Sul posto",
+            "none": "Nessuno",
+            "quantity": "Quantità",
+            "email_coped": "E-mail copiata",
+            "notification_statuses": {
+                "canceled": "Annullato",
+                "fixed": "Fisso",
+                "no_issue": "Nessun problema",
+                "not_viewed": "Non visualizzato",
+                "received": "Ricevuto",
+                "system": "Sistema"
+            },
+            "classification_options": {
+                "WARNING": "Avvertimento",
+                "CRITICAL": "Critico",
+                "MAINTENANCE": "Manutenzione"
+            },
+            "prediction_confidence_levels": {
+                "HIGH": "Alto",
+                "MEDIUM": "medio"
+            },
+            "tabs": {
+                "incident_details": "Dettagli dell'incidente",
+                "history": "Storia",
+                "manual": "Manuale"
+            }
+        },
+        "service_history": {
+            "table_title": "Cronologia dei servizi",
+            "contract_type": "Tipo di contratto",
+            "contract_expires": "Il contratto scade",
+            "warranty_expires": "La garanzia scade",
+            "request_id": "ID richiesta",
+            "tabs": {
+                "tasks": "Compiti",
+                "parts": "Parti"
+            }
+        },
+        "maintenance": {
+            "under_maintenance": "La manutenzione del portale è attualmente in corso. Il portale IRIS non sarà disponibile fino al completamento della manutenzione il 30/01. Grazie per la tua comprensione mentre continuiamo a migliorare il sistema."
+        }
+    }
+}

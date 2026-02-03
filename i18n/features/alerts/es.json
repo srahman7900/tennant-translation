@@ -1,0 +1,47 @@
+{
+    "pages": {
+        "alerts": {
+            "title": "AVISOS",
+            "disclaimer": "Las alertas deben habilitarse desde la pestaña Configuración para poder verlas aquí.",
+            "summaries": {
+                "impacts": "Impactos",
+                "no_usage": "Sin uso",
+                "no_connectivity": "Sin conectividad",
+                "incomplete_charges": "Cargas incompletas",
+                "relocation": "Reubicación"
+            },
+            "status": {
+                "title": "Estado",
+                "active": "Activo",
+                "inactive": "Despejado"
+            },
+            "operator_id": "ID operario",
+            "technician_id": "Identificación del técnico",
+            "date": "Fecha",
+            "time": "Hora",
+            "site": "Sitio",
+            "region": "Región",
+            "current_location": "Ubicación actual",
+            "home_location": "Ubicación almacenaje máquina",
+            "possible_fixes": "Posibles Correcciones",
+            "possible_reasons": "Posibles Razones",
+            "prioritized_fixes": "Correcciones priorizadas",
+            "prioritized_reasons": "Razones priorizadas",
+            "miles": "millas",
+            "km": "km",
+            "months": "meses",
+            "minutes": "Minutos",
+            "created": "CREADO",
+            "critical": "CRÍTICO",
+            "warning": "ADVERTENCIA",
+            "completed": "TERMINADO",
+            "cleared": "BORRADO",
+            "date_reported": "Fecha reportada",
+            "date_completed": "Fecha de finalización",
+            "tabs": {
+                "details": "Detalles de alerta",
+                "manual": "Manual"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "pages": {
+        "alerts": {
+            "title": "ALARME",
+            "disclaimer": "Damit Warnungen hier angezeigt werden können, müssen sie auf der Registerkarte „Setup“ aktiviert werden.",
+            "summaries": {
+                "impacts": "Auswirkungen",
+                "no_usage": "Keine Verwendung",
+                "no_connectivity": "Keine Konnektivität",
+                "incomplete_charges": "Unvollständige Gebühren",
+                "relocation": "Standortwechsel"
+            },
+            "status": {
+                "title": "Status",
+                "active": "Aktiv",
+                "inactive": "Gelöscht"
+            },
+            "operator_id": "Bediener-ID",
+            "technician_id": "Techniker-ID",
+            "date": "Datum",
+            "time": "Zeit",
+            "site": "Standort",
+            "region": "Region",
+            "current_location": "Aktueller Standort",
+            "home_location": "Wohnort",
+            "possible_fixes": "Mögliche Korrekturen",
+            "possible_reasons": "Mögliche Gründe",
+            "prioritized_fixes": "Priorisierte Korrekturen",
+            "prioritized_reasons": "Priorisierte Gründe",
+            "miles": "meilen",
+            "km": "km",
+            "months": "monate",
+            "minutes": "Minuten",
+            "created": "ERSTELLT",
+            "critical": "KRITISCH",
+            "warning": "WARNUNG",
+            "completed": "VOLLENDET",
+            "cleared": "GELÖSCHT",
+            "date_reported": "Datum der Meldung",
+            "date_completed": "Datum abgeschlossen",
+            "tabs": {
+                "details": "Warnungsdetails",
+                "manual": "Handbuch"
+            }
+        }
+    }
+}

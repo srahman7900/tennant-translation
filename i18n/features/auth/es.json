@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "login": {
+            "subtitle": "Presione Iniciar sesión con mi cuenta para continuar",
+            "subtitle_internal": "Presione Iniciar sesión con ADB2C para continuar",
+            "instructions": "Se le redirigirá a una página intermedia para iniciar sesión. Utilice las credenciales de inicio de sesión de su cuenta MyTennant. La página de inicio así como el nuevo portal, están en proceso de construcción, le rogamos disculpe su aspecto.",
+            "internal_instructions": "Presione en iniciar sesión para continuar. Serás redirigido a una página intermedia para iniciar sesión. Utilice sus credenciales de inicio de sesión de ADB2C. Utilice sus credenciales de ADB2C. La página así como el nuevo portal, están en proceso de construcción, le rogamos disculpe su aspecto.",
+            "time_zone": "Zona horaria",
+            "time_zone_subheader": "Para continuar y utilizar el portal, debe seleccionar una zona horaria."
+        }
+    }
+}
