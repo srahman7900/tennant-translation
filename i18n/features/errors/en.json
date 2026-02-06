@@ -1,188 +1,231 @@
 {
-  "device_errors_definitions": {
-    "0xfff0": {
-      "title": "E-Stop Active Fault",
-      "description": "E-Stop Active Fault",
-      "possible_reasons": [
-        "E-Stop pressed.",
-        "Large white iDrive connector unplugged.",
-        "Large white iDrive connector pin 7 disconnected.",
-        "iDrive power wire unplugged.",
-        "Scrub Controller board connector J9 pin 2 disconnected.",
-        "Scrub Controller board connector J8 unplugged.",
-        "Scrub Controller board connector J8 pin 7 disconnected."
-      ],
-      "possible_actions": [
-        "Key off machine.",
-        "Press and reset E-Stop button.",
-        "Key on machine.",
-        "If fault persists, check harness connections between Estop and control module.",
-        "Replace or repair harness.",
-        "Replace E-STOP."
-      ]
-    },
-    "0x0501": {
-      "title": "Vacuum Motor Open Warning",
-      "description": "Vacuum Motor Open Fault",
-      "possible_reasons": [
-        "Wiring, connector or control board issue on the vacuum.",
-        "J10 connector on Scrub Controller board unplugged.",
-        "Scrub Controller board power disconnected.",
-        "Scrub Controller inline power fuse defective/blown."
-      ],
-      "possible_actions": ["Needs repair. Check connections. Board gets power from key switch and battery."]
-    },
-    "0x0712": {
-      "title": "EC-H2O Pump Breaker Tripped Warning",
-      "description": "EC-H20 pump breaker Fault",
-      "possible_reasons": [
-        "Detected module circuit breaker trip.",
-        "Scrub Controller board J4 connector unplugged.",
-        "Scrub Controller board J4 connector pin 1 disconnected."
-      ],
-      "possible_actions": ["Power cycle machine. Check connections. If warning persists, contact service."]
-    },
-    "0x8001": {
-      "title": "Scrubbing feature disabled remotely",
-      "description": "Scrubbing feature disabled remotely",
-      "possible_reasons": ["Scrubbing feature has been disabled remotely by Tennant Admin"],
-      "possible_actions": ["Contact Tennant Admin"]
-    },
-    "0x8002": {
-      "title": "ABW feature disabled remotely",
-      "description": "ABW feature disabled remotely",
-      "possible_reasons": ["ABW feature has been disabled remotely by Tennant Admin"],
-      "possible_actions": ["Contact Tennant Admin"]
-    },
-    "00": {
-      "title": "Charger Error",
-      "description": "Triggered if a charger error is reported.",
-      "possible_reasons": ["The charger isn't working properly"],
-      "possible_actions": ["Unplug your charger and plug it back in to restart it. Replace your charger."]
-    },
-    "nocharge": {
-      "title": "No Charge",
-      "description": "Triggered if machine reported usage but battery was not charged in that calendar day.",
-      "possible_reasons": ["The machine was used but not charged the same day."],
-      "possible_actions": ["Be sure to charge the machine after use at the end of a shift."]
-    },
-    "lowusage": {
-      "title": "Low Usage",
-      "description": "Triggered if the machine is used less than the user selected number of hours (defaults to 0 hours).",
-      "possible_reasons": ["The machine was used less than the user selected number of hours."],
-      "possible_actions": ["Change (decrease) the selected hours to be below your average usage time from the Setup."]
-    },
-    "relocation": {
-      "title": "Machine Relocated",
-      "description": "Triggered if machine reported a location that is outside the set radius of its home location. This radius can be set by the user in the set-up page.",
-      "possible_reasons": ["The machine has been moved outside of its home radius."],
-      "possible_actions": ["Bring the machine within its home radius. Increase the distance of the allowable radius."]
-    },
-    "opportunitycharge": {
-      "title": "Opportunity Charge",
-      "description": "The machine reported its battery being plugged in for charging but not to completion.",
-      "possible_reasons": ["The machine received a partial charge."],
-      "possible_actions": [
-        "Be sure to charge the machine fully before unplugging. Partially charging a lead acid battery can shorten the life of the battery."
-      ]
-    },
-    "impactdetected": {
-      "description": "Triggered if machine detects a substantial impact. Check the machine for possible damage."
-    },
-    "nocommunication": {
-      "title": "No Communication",
-      "description": "Triggered if a machine has not communicated with the portal for the selected period.",
-      "possible_reasons": ["Poor cell coverage.", "Battery if fully depleted.", "Antenna or hardware component damaged."],
-      "possible_actions": [
-        "Move the machine to a different location with better cell coverage.",
-        "Charge The battery.",
-        "Call Service for component replacement."
-      ]
-    },
-    "noserviceperformed": {
-      "title": "No Service Performed",
-      "description": "Triggered if a machine has not been serviced in the selected period.",
-      "possible_reasons": ["Service has not been performed on the machine in the selected period."],
-      "possible_actions": ["Contact Tennant to perform service.", "Adjust the time interval before service needs to be performed."]
-    },
-    "servicerequest": {
-      "description": "Triggered if a Service Request has been created or completed. A service request can be created by the IRIS system."
-    },
-    "automaticbatterywatering": {
-      "title": "ABW TANK EMPTY",
-      "description": "Triggered when Automatic Battery Watering (ABW) Tank needs to be filled with distilled water.",
-      "possible_reasons": [
-        "Battery watering tank is empty.",
-        "Machine has had continued use with battery watering tank empty fault active (0x0B06)."
-      ],
-      "possible_actions": ["Refill battery watering tank with distilled water then key cycle the machine."]
-    },
-    "maintenancereminder": {
-      "title": "MAINTENANCE REMINDER",
-      "description": "Triggered if a machine reaches a threshold of cleaning hours. ",
-      "possible_reasons": {
-        "T600E": [
-          "Squeegee blades should be inspected for damage and proper deflection",
-          "Squeegee casters should be inspected for damage",
-          "Vacuum hose should be inspected for clogs or damage",
-          "Solution flow line and filter should be inspected for clogs and damage",
-          "Recovery tank drain hose should be inspected for clogs or damage",
-          "Pads or Brush Assembly should be inspected for wear and tear",
-          "Recovery tank lid seal should be inspected for damage",
-          "Debris tray should be inspected for clogs or damage",
-          "Squeegee assembly drip trap reservoir should be inspected for clogs"
+  "errors": {
+    "device_errors_definitions": {
+      "0xfff0": {
+        "title": "E-Stop Active Fault",
+        "description": "E-Stop Active Fault",
+        "possible_reasons": [
+          "E-Stop pressed.",
+          "Large white iDrive connector unplugged.",
+          "Large white iDrive connector pin 7 disconnected.",
+          "iDrive power wire unplugged.",
+          "Scrub Controller board connector J9 pin 2 disconnected.",
+          "Scrub Controller board connector J8 unplugged.",
+          "Scrub Controller board connector J8 pin 7 disconnected."
         ],
-        "X4ROVR": [
-          "Pads or Brush Assembly should be inspected for wear and tear",
-          "Side and rear Squeegee blades should be inspected for damage and proper deflection",
-          "Front/side 2D and 3D sensors and upper/lower LIDAR sensors should be inspected for damage and dirt",
-          "Left, right, and front Perimeter guards should be inspected for damage, debris and wear",
-          "Recovery tank drain hose should be inspected for clogs or damage",
-          "Recovery tank lid seal should be inspected for damage",
-          "Debris tray should be inspected for clogs or damage",
-          "Solution flow line and filter should be inspected for clogs and damage",
-          "Vacuum hose should be inspected for clogs or damage"
+        "possible_actions": [
+          "Key off machine.",
+          "Press and reset E-Stop button.",
+          "Key on machine.",
+          "If fault persists, check harness connections between Estop and control module.",
+          "Replace or repair harness.",
+          "Replace E-STOP."
         ]
       },
-      "possible_actions": {
-        "T600E": [
-          "Each squeegee blade has four wiping edges. Rotate the blades to an unused edge. If all four edges are worn, replace squeegee blades. Check squeegee blade deflection to the floor. Rear blade should deflect evenly across the full length of the squeegee at 45 degrees",
-          "Lubricate rear casters. If worn, replace rear casters",
-          "Flush vacuum hose. Check for damage and replace if damaged",
-          "Drain and rinse out the solution tank. Remove and clean solution tank filter",
-          "Check solution filter for damage and replace if damaged",
-          "Clean and flush recovery drain hose. Check for damage and replace if damaged",
-          "Replace Pads or Brush Assembly if worn or damaged",
-          "Flush Recovery Tank. Remove and clean the float shut-off screen",
-          "Clean recovery tank lid seal. Replace if damaged",
-          "Remove and clean debris tray. Replace if damaged",
-          "Remove the drip trap cover from the squeegee assembly and clean reservoir"
+      "0x0501": {
+        "title": "Vacuum Motor Open Warning",
+        "description": "Vacuum Motor Open Fault",
+        "possible_reasons": [
+          "Wiring, connector or control board issue on the vacuum.",
+          "J10 connector on Scrub Controller board unplugged.",
+          "Scrub Controller board power disconnected.",
+          "Scrub Controller inline power fuse defective/blown."
         ],
-        "X4ROVR": [
-          "Replace Pads or Brush Assembly if worn or damaged",
-          "Each rear squeegee blade has two wiping edges. Rotate the blades to an unused edge. If all edges are worn, replace squeegee blades. Each side squeegee blade has four wiping edges. Rotate the blades to an unused edge. Once both edges are worn, swap squeegee blades from one side of the machine to the other to use the opposite edges. Replace blades when all edges are worn. Check squeegee blade deflection to the floor",
-          "Check for sensor damage. Clean with provided microfiber cloth. Replace if damaged",
-          "Replace damaged and/or worn perimeter bristle assemblies. Inspect adjustment plates for slipping. Adjust as necessary",
-          "Flush Recovery Tank. Remove and clean the float shut-off screen. Clean and flush recovery drain hose. Check for damage and replace if damaged",
-          "Clean recovery tank lid seal. Replace if damaged",
-          "Remove and clean debris tray. Replace if damaged",
-          "Drain and rinse out the solution tank. Remove and clean solution tank filter. Check solution filter for damage and replace if damaged",
-          "Flush vacuum hose. Check for damage and replace if damaged"
+        "possible_actions": [
+          "Needs repair. Check connections. Board gets power from key switch and battery."
+        ]
+      },
+      "0x0712": {
+        "title": "EC-H2O Pump Breaker Tripped Warning",
+        "description": "EC-H20 pump breaker Fault",
+        "possible_reasons": [
+          "Detected module circuit breaker trip.",
+          "Scrub Controller board J4 connector unplugged.",
+          "Scrub Controller board J4 connector pin 1 disconnected."
+        ],
+        "possible_actions": [
+          "Power cycle machine. Check connections. If warning persists, contact service."
+        ]
+      },
+      "0x8001": {
+        "title": "Scrubbing feature disabled remotely",
+        "description": "Scrubbing feature disabled remotely",
+        "possible_reasons": [
+          "Scrubbing feature has been disabled remotely by Tennant Admin"
+        ],
+        "possible_actions": [
+          "Contact Tennant Admin"
+        ]
+      },
+      "0x8002": {
+        "title": "ABW feature disabled remotely",
+        "description": "ABW feature disabled remotely",
+        "possible_reasons": [
+          "ABW feature has been disabled remotely by Tennant Admin"
+        ],
+        "possible_actions": [
+          "Contact Tennant Admin"
+        ]
+      },
+      "00": {
+        "title": "Charger Error",
+        "description": "Triggered if a charger error is reported.",
+        "possible_reasons": [
+          "The charger isn't working properly"
+        ],
+        "possible_actions": [
+          "Unplug your charger and plug it back in to restart it. Replace your charger."
+        ]
+      },
+      "nocharge": {
+        "title": "No Charge",
+        "description": "Triggered if machine reported usage but battery was not charged in that calendar day.",
+        "possible_reasons": [
+          "The machine was used but not charged the same day."
+        ],
+        "possible_actions": [
+          "Be sure to charge the machine after use at the end of a shift."
+        ]
+      },
+      "lowusage": {
+        "title": "Low Usage",
+        "description": "Triggered if the machine is used less than the user selected number of hours (defaults to 0 hours).",
+        "possible_reasons": [
+          "The machine was used less than the user selected number of hours."
+        ],
+        "possible_actions": [
+          "Change (decrease) the selected hours to be below your average usage time from the Setup."
+        ]
+      },
+      "relocation": {
+        "title": "Machine Relocated",
+        "description": "Triggered if machine reported a location that is outside the set radius of its home location. This radius can be set by the user in the set-up page.",
+        "possible_reasons": [
+          "The machine has been moved outside of its home radius."
+        ],
+        "possible_actions": [
+          "Bring the machine within its home radius. Increase the distance of the allowable radius."
+        ]
+      },
+      "opportunitycharge": {
+        "title": "Opportunity Charge",
+        "description": "The machine reported its battery being plugged in for charging but not to completion.",
+        "possible_reasons": [
+          "The machine received a partial charge."
+        ],
+        "possible_actions": [
+          "Be sure to charge the machine fully before unplugging. Partially charging a lead acid battery can shorten the life of the battery."
+        ]
+      },
+      "impactdetected": {
+        "description": "Triggered if machine detects a substantial impact. Check the machine for possible damage."
+      },
+      "nocommunication": {
+        "title": "No Communication",
+        "description": "Triggered if a machine has not communicated with the portal for the selected period.",
+        "possible_reasons": [
+          "Poor cell coverage.",
+          "Battery if fully depleted.",
+          "Antenna or hardware component damaged."
+        ],
+        "possible_actions": [
+          "Move the machine to a different location with better cell coverage.",
+          "Charge The battery.",
+          "Call Service for component replacement."
+        ]
+      },
+      "noserviceperformed": {
+        "title": "No Service Performed",
+        "description": "Triggered if a machine has not been serviced in the selected period.",
+        "possible_reasons": [
+          "Service has not been performed on the machine in the selected period."
+        ],
+        "possible_actions": [
+          "Contact Tennant to perform service.",
+          "Adjust the time interval before service needs to be performed."
+        ]
+      },
+      "servicerequest": {
+        "description": "Triggered if a Service Request has been created or completed. A service request can be created by the IRIS system."
+      },
+      "automaticbatterywatering": {
+        "title": "ABW TANK EMPTY",
+        "description": "Triggered when Automatic Battery Watering (ABW) Tank needs to be filled with distilled water.",
+        "possible_reasons": [
+          "Battery watering tank is empty.",
+          "Machine has had continued use with battery watering tank empty fault active (0x0B06)."
+        ],
+        "possible_actions": [
+          "Refill battery watering tank with distilled water then key cycle the machine."
+        ]
+      },
+      "maintenancereminder": {
+        "title": "MAINTENANCE REMINDER",
+        "description": "Triggered if a machine reaches a threshold of cleaning hours. ",
+        "possible_reasons": {
+          "T600E": [
+            "Squeegee blades should be inspected for damage and proper deflection",
+            "Squeegee casters should be inspected for damage",
+            "Vacuum hose should be inspected for clogs or damage",
+            "Solution flow line and filter should be inspected for clogs and damage",
+            "Recovery tank drain hose should be inspected for clogs or damage",
+            "Pads or Brush Assembly should be inspected for wear and tear",
+            "Recovery tank lid seal should be inspected for damage",
+            "Debris tray should be inspected for clogs or damage",
+            "Squeegee assembly drip trap reservoir should be inspected for clogs"
+          ],
+          "X4ROVR": [
+            "Pads or Brush Assembly should be inspected for wear and tear",
+            "Side and rear Squeegee blades should be inspected for damage and proper deflection",
+            "Front/side 2D and 3D sensors and upper/lower LIDAR sensors should be inspected for damage and dirt",
+            "Left, right, and front Perimeter guards should be inspected for damage, debris and wear",
+            "Recovery tank drain hose should be inspected for clogs or damage",
+            "Recovery tank lid seal should be inspected for damage",
+            "Debris tray should be inspected for clogs or damage",
+            "Solution flow line and filter should be inspected for clogs and damage",
+            "Vacuum hose should be inspected for clogs or damage"
+          ]
+        },
+        "possible_actions": {
+          "T600E": [
+            "Each squeegee blade has four wiping edges. Rotate the blades to an unused edge. If all four edges are worn, replace squeegee blades. Check squeegee blade deflection to the floor. Rear blade should deflect evenly across the full length of the squeegee at 45 degrees",
+            "Lubricate rear casters. If worn, replace rear casters",
+            "Flush vacuum hose. Check for damage and replace if damaged",
+            "Drain and rinse out the solution tank. Remove and clean solution tank filter",
+            "Check solution filter for damage and replace if damaged",
+            "Clean and flush recovery drain hose. Check for damage and replace if damaged",
+            "Replace Pads or Brush Assembly if worn or damaged",
+            "Flush Recovery Tank. Remove and clean the float shut-off screen",
+            "Clean recovery tank lid seal. Replace if damaged",
+            "Remove and clean debris tray. Replace if damaged",
+            "Remove the drip trap cover from the squeegee assembly and clean reservoir"
+          ],
+          "X4ROVR": [
+            "Replace Pads or Brush Assembly if worn or damaged",
+            "Each rear squeegee blade has two wiping edges. Rotate the blades to an unused edge. If all edges are worn, replace squeegee blades. Each side squeegee blade has four wiping edges. Rotate the blades to an unused edge. Once both edges are worn, swap squeegee blades from one side of the machine to the other to use the opposite edges. Replace blades when all edges are worn. Check squeegee blade deflection to the floor",
+            "Check for sensor damage. Clean with provided microfiber cloth. Replace if damaged",
+            "Replace damaged and/or worn perimeter bristle assemblies. Inspect adjustment plates for slipping. Adjust as necessary",
+            "Flush Recovery Tank. Remove and clean the float shut-off screen. Clean and flush recovery drain hose. Check for damage and replace if damaged",
+            "Clean recovery tank lid seal. Replace if damaged",
+            "Remove and clean debris tray. Replace if damaged",
+            "Drain and rinse out the solution tank. Remove and clean solution tank filter. Check solution filter for damage and replace if damaged",
+            "Flush vacuum hose. Check for damage and replace if damaged"
+          ]
+        }
+      },
+      "notreachingcleantimegoals": {
+        "title": "NOT REACHING CLEAN TIME GOALS",
+        "description": "Triggered if the machine is used less than the Clean Time Goal.",
+        "possible_reasons": [
+          "The machine was used less than the Clean Time Goal that was set in the Setup page.",
+          "The expected clean time goal may be too high compared to actual usage patterns.",
+          "Operational downtime, maintenance, or holidays may have affected usage."
+        ],
+        "possible_actions": [
+          "Adjust (decrease) the expected daily clean time goal to better match your machine’s average usage.",
+          "Review machine schedules and ensure they align with expected usage goals."
         ]
       }
-    },
-    "notreachingcleantimegoals": {
-      "title": "NOT REACHING CLEAN TIME GOALS",
-      "description": "Triggered if the machine is used less than the Clean Time Goal.",
-      "possible_reasons": [
-        "The machine was used less than the Clean Time Goal that was set in the Setup page.",
-        "The expected clean time goal may be too high compared to actual usage patterns.",
-        "Operational downtime, maintenance, or holidays may have affected usage."
-      ],
-      "possible_actions": [
-        "Adjust (decrease) the expected daily clean time goal to better match your machine’s average usage.",
-        "Review machine schedules and ensure they align with expected usage goals."
-      ]
     }
   }
 }
